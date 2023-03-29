@@ -40,7 +40,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "" , 
-            "Profesion": ""
+            "Profesion": "Blacksmithing I"
         },
         {
             "id":2,
@@ -48,7 +48,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing I"
         },
         {
             "id":3,
@@ -56,7 +56,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing I"
         },
         {
             "id":4,
@@ -64,7 +64,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing I"
         },
         {
             "id":5,
@@ -72,7 +72,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing I"
         },
         {
             "id":6,
@@ -80,7 +80,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing I"
         },
         {
             "id":7,
@@ -88,7 +88,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing I"
         },        
         {
             "id":8,
@@ -96,7 +96,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing II"
         },
         {
             "id":9,
@@ -104,7 +104,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing II"
         },
         {
             "id":10,
@@ -112,7 +112,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing II"
         },
         {
             "id":11,
@@ -120,7 +120,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing II"
         },
         {
             "id":12,
@@ -128,7 +128,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing II"
         },
         {
             "id":13,
@@ -136,7 +136,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing II"
         },
         {
             "id":14,
@@ -144,7 +144,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing II"
         },
         {
             "id":15,
@@ -152,7 +152,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Blacksmithing II"
         }
     ],
     "Breeder":[
@@ -238,7 +238,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Farming I"
         },
         {
             "id":2,
@@ -246,7 +246,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Farming I"
         },
         {
             "id":3,
@@ -254,7 +254,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Farming I"
         },
         {
             "id":4,
@@ -262,7 +262,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Farming I"
         },
         {
             "id":5,
@@ -270,7 +270,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Farming I"
         },
         {
             "id":6,
@@ -278,7 +278,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Farming I"
         },
         {
             "id":7,
@@ -286,7 +286,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Farming I"
         },
         {
             "id":8,
@@ -294,7 +294,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Farming II"
         },
         {
             "id":9,
@@ -302,7 +302,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Farming II"
         },
         {
             "id":10,
@@ -310,7 +310,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Farming II"
         },
         {
             "id":11,
@@ -318,7 +318,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Farming II"
         }
         
     ],
@@ -429,7 +429,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring I"
         },    
         {
             "id":2,
@@ -437,7 +437,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring I"
         },        
         {
             "id":3,
@@ -445,7 +445,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring I"
         },        
         {
             "id":4,
@@ -453,7 +453,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring I"
         },        
         {
             "id":5,
@@ -461,7 +461,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring I"
         },        
         {
             "id":6,
@@ -469,7 +469,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring I"
         },        
         {
             "id":7,
@@ -477,7 +477,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring I"
         },        
         {
             "id":8,
@@ -485,7 +485,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring I"
         },        
         {
             "id":9,
@@ -493,7 +493,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring I"
         },        
         {
             "id":10,
@@ -501,7 +501,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring II"
         },
         {
             "id":11,
@@ -509,7 +509,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring II"
         },
         {
             "id":12,
@@ -517,7 +517,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring II"
         },
         {
             "id":13,
@@ -525,7 +525,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring II"
         },
         {
             "id":14,
@@ -533,7 +533,7 @@
             "ingredients":"" ,
             "return":"" , 
             "Tool": "",
-            "Profesion": ""
+            "Profesion": "Tailoring II"
         }
     ]
 
