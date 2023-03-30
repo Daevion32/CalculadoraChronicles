@@ -5,7 +5,7 @@
             "name":"Bread" ,
             "ingredients":"1 Wheat" ,
             "return":"1 Bread" , 
-            "Tool": "Cooking Pot",
+            "Tool": "1 Cooking Pot",
             "Profesion": "Cooking I"
         },
         {
@@ -13,7 +13,7 @@
             "name":"Fish Soup" ,
             "ingredients":"1 Fish , 1 Pottery" ,
             "return":"1 Fish Soup" , 
-            "Tool": "Cooking Pot",
+            "Tool": "1 Cooking Pot",
             "Profesion": "Cooking I"
         },
         {
@@ -21,7 +21,7 @@
             "name":"Meat Soup" ,
             "ingredients":"1 Meat , 1 Pottery" ,
             "return":"1 Meat Soup" , 
-            "Tool": "Cooking Pot",
+            "Tool": "1 Cooking Pot",
             "Profesion": "Cooking I"
         },
         {
@@ -29,7 +29,7 @@
             "name":"Complete Fish Meal" ,
             "ingredients":"1 Fish Soup , 1 Bread" ,
             "return":"1 Complete Fish Meal" , 
-            "Tool": "Cooking Pot",
+            "Tool": "1 Cooking Pot",
             "Profesion": "Cooking II"
         },
         {
@@ -37,7 +37,7 @@
             "name":"Complete Meat Meal" ,
             "ingredients":"1 Meat Soup , 1 Bread" ,
             "return":"1 Complete Meat Meal" , 
-            "Tool": "Cooking Pot",
+            "Tool": "1 Cooking Pot",
             "Profesion": "Cooking II"
         }
     ],
@@ -47,7 +47,7 @@
             "name":"Hatchet" ,
             "ingredients":"1 Iron Ore , 1 Wood Piece" ,
             "return":"1 Hatchet" , 
-            "Tool": "Hammer" , 
+            "Tool": "1 Hammer" , 
             "Profesion": "Blacksmithing I"
         },
         {
@@ -55,7 +55,7 @@
             "name":"Hoe" ,
             "ingredients":"1 Iron Ore , 1 Wood Piece" ,
             "return":"1 Hoe" , 
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing I"
         },
         {
@@ -63,7 +63,7 @@
             "name":"Medical Scalpel" ,
             "ingredients":"1 Coal Piece , 1 Iron Piece" ,
             "return":"1 Medical Scalpel" , 
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing I"
         },
         {
@@ -71,7 +71,7 @@
             "name":"Pickaxe" ,
             "ingredients":"1 Iron Ore , 1 Wood Piece" ,
             "return":"1 Pickaxe" ,  
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing I"
         },
         {
@@ -79,7 +79,7 @@
             "name":"Pile of nails" ,
             "ingredients":"1 Iron Ore" ,
             "return":"1 Pickaxe" , 
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing I"
         },
         {
@@ -87,7 +87,7 @@
             "name":"Saw" ,
             "ingredients":"1 Iron Ore , 1 Wood Piece" ,
             "return":"1 Saw" , 
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing I"
         },
         {
@@ -95,7 +95,7 @@
             "name":"Scissors" ,
             "ingredients":"1 Coal Piece , 1 Iron Piece" ,
             "return":"1 Scissors" , 
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing I"
         },        
         {
@@ -103,7 +103,7 @@
             "name":"Chainmail" ,
             "ingredients":"2 Coal Piece , 3 Iron Ore" ,
             "return":"1 Chainmail" , 
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing II"
         },
         {
@@ -111,7 +111,7 @@
             "name":"Iron Helmet" ,
             "ingredients":"1 Coal Piece , 2 Iron Ore" ,
             "return":"1 Iron Helmet" , 
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing II"
         },
         {
@@ -119,7 +119,7 @@
             "name":"Iron Shield" ,
             "ingredients":"1 Coal Piece , 2 Iron Ore" ,
             "return":"1 Iron Shield" , 
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing II"
         },
         {
@@ -127,7 +127,7 @@
             "name":"Iron Sword" ,
             "ingredients":"1 Coal Piece , 2 Iron Ore" ,
             "return":"1 Iron Sword" , 
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing II"
         },
         {
@@ -135,7 +135,7 @@
             "name":"Knight Helmet" ,
             "ingredients":"2 Coal Piece , 2 Iron Ore" ,
             "return":"1 Knight Helmet" ,  
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing II"
         },
         {
@@ -143,7 +143,7 @@
             "name":"Plates Armor" ,
             "ingredients":"3 Coal Piece , 4 Iron Ore" ,
             "return":"1 Plates Armor" , 
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing II"
         },
         {
@@ -151,7 +151,7 @@
             "name":"Plates Legs Armor" ,
             "ingredients":"2 Coal Piece , 3 Iron Ore" ,
             "return":"1 Plates Legs Armor" , 
-            "Tool": "Hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing II"
         },
         {
@@ -159,7 +159,7 @@
             "name":"Waraxe" ,
             "ingredients":"1 Coal Piece , 2 Iron ore , 1 Wood Piece" ,
             "return":"1 Waraxe" , 
-            "Tool": "hammer",
+            "Tool": "1 Hammer",
             "Profesion": "Blacksmithing II"
         }
     ],
@@ -203,7 +203,7 @@
                 "name":"Barrel" ,
                 "ingredients":"1 Pile of Nails , 1 Wooden Board" ,
                 "return":"1 Barrel" , 
-                "Tool": "Saw",
+                "Tool": "1 Saw",
                 "Profesion": "Carpenter I"
             },
             {
@@ -211,7 +211,7 @@
                 "name":"Knife" ,
                 "ingredients":"1 Iron Ore , 1 Wood Piece" ,
                 "return":"1 Knife" , 
-                "Tool": "Saw",
+                "Tool": "1 Saw",
                 "Profesion": "Carpenter I"
             },
             {
@@ -219,7 +219,7 @@
                 "name":"Hammer" ,
                 "ingredients":"1 Iron Ore , 1 Wood Piece" ,
                 "return":"1 Hammer" , 
-                "Tool": "Saw",
+                "Tool": "1 Saw",
                 "Profesion": "Carpenter I"
             },
             {
@@ -227,7 +227,7 @@
                 "name":"Potter Tools" ,
                 "ingredients":"1 Iron Ore , 1 Wood Piece" ,
                 "return":"1 Potter Tools" , 
-                "Tool": "Saw",
+                "Tool": "1 Saw",
                 "Profesion": "Carpenter I"
             },
             {
@@ -235,7 +235,7 @@
                 "name":"Sickle" ,
                 "ingredients":"1 Iron Ore , 1 Wood Piece" ,
                 "return":"1 Sickle" , 
-                "Tool": "Saw",
+                "Tool": "1 Saw",
                 "Profesion": "Carpenter I"
             },
             {
@@ -243,7 +243,7 @@
                 "name":"Shovel" ,
                 "ingredients":"1 Iron Ore , 1 Wood Piece" ,
                 "return":"1 Shovel" , 
-                "Tool": "Saw",
+                "Tool": "1 Saw",
                 "Profesion": "Carpenter I"
             },
             {
@@ -251,7 +251,7 @@
                 "name":"Wooden Board" ,
                 "ingredients":"1 Wood Piece" ,
                 "return":"1 Wooden Board" , 
-                "Tool": "Saw",
+                "Tool": "1 Saw",
                 "Profesion": "Carpenter I"
             },
             {
@@ -259,7 +259,7 @@
                 "name":"Club" ,
                 "ingredients":"2 Wood Piece" ,
                 "return":"1 Club" , 
-                "Tool": "Saw",
+                "Tool": "1 Saw",
                 "Profesion": "Carpenter II"
             },
             {
@@ -267,7 +267,7 @@
                 "name":"Pike" ,
                 "ingredients":"1 Coal Piece , 1 Iron Ore , 2 Wood Piece"  ,
                 "return":"1 Pike" , 
-                "Tool": "Saw",
+                "Tool": "1 Saw",
                 "Profesion": "Carpenter II"
             },
             {
@@ -275,7 +275,7 @@
                 "name":"Wooden Shield" ,
                 "ingredients":" 1 Pile of Nails , 2 Wood Piece" ,
                 "return":"1 Wooden Shield" , 
-                "Tool": "Saw",
+                "Tool": "1 Saw",
                 "Profesion": "Carpenter II"
             },
             {
@@ -283,7 +283,7 @@
                 "name":"Reinforced Wooden Shield" ,
                 "ingredients":" 1 Iron Ore , 1 Pile of Nails , 2 Wood Piece" ,
                 "return":"1 Reinforced Wooden Shield" , 
-                "Tool": "Saw",
+                "Tool": "1 Saw",
                 "Profesion": "Carpenter II"
             }    
     ],
@@ -375,7 +375,7 @@
             "name":"Ink Bulb" ,
             "ingredients":"1 Glass Bulb , 2 Mulberry" ,
             "return":"1 Ink Bulb" , 
-            "Tool": "Mortar & Pestle",
+            "Tool": "1 Mortar & Pestle",
             "Profesion": "Herbalist I"
         },
         {
@@ -383,7 +383,7 @@
             "name":"Healing Infusion" ,
             "ingredients":"1 Honey , 1 Medical Plant" ,
             "return":"1 Healing Infusion" , 
-            "Tool": "Mortar & Pestle",
+            "Tool": "1 Mortar & Pestle",
             "Profesion": "Herbalist I"
         },
         {
@@ -391,7 +391,7 @@
             "name":"Paper Sheet" ,
             "ingredients":"1 Hemp" ,
             "return":"1 Paper Sheet" ,  
-            "Tool": "Mortar & Pestle",
+            "Tool": "1 Mortar & Pestle",
             "Profesion": "Herbalist I"
         },
         {
@@ -399,7 +399,7 @@
             "name":"Wax Seal" ,
             "ingredients":"1 Wax" ,
             "return":"1 Wax Seal" , 
-            "Tool": "Mortar & Pestle",
+            "Tool": "1 Mortar & Pestle",
             "Profesion": "Herbalist I"
         },
         {
@@ -407,7 +407,7 @@
             "name":"Writing Kit" ,
             "ingredients":"1 Ink Bulb , 1 Paper Sheet" ,
             "return":"1 Writing Kit" ,  
-            "Tool": "Mortar & Pestle",
+            "Tool": "1 Mortar & Pestle",
             "Profesion": "Herbalist I"
         }
 
@@ -468,7 +468,7 @@
             "name":"Bellow" ,
             "ingredients":"2 Leather , 1 Wood Piece" ,
             "return":"1 Bellow" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring I"
         },    
         {
@@ -476,7 +476,7 @@
             "name":"Fishing Net" ,
             "ingredients":"3 Hemp" ,
             "return":"1 Fishing Net" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring I"
         },        
         {
@@ -484,7 +484,7 @@
             "name":"Linen Shirt" ,
             "ingredients":"2 Linen" ,
             "return":"1 Linen Shirt" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring I"
         },        
         {
@@ -492,7 +492,7 @@
             "name":"Linen Trousers" ,
             "ingredients":"2 Linen" ,
             "return":"1 Linen Trousers" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring I"
         },        
         {
@@ -500,7 +500,7 @@
             "name":"Shoes" ,
             "ingredients":"1 Leather" ,
             "return":"1 Shoes" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring I"
         },        
         {
@@ -508,7 +508,7 @@
             "name":"Wool Hat" ,
             "ingredients":"1 Wool" ,
             "return":"1 Wool Hat" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring I"
         },        
         {
@@ -516,7 +516,7 @@
             "name":"Wool Gloves" ,
             "ingredients":"1 Wool" ,
             "return":"1 Woo Gloves" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring I"
         },        
         {
@@ -524,7 +524,7 @@
             "name":"Wool Shirt" ,
             "ingredients":"2 Wool" ,
             "return":"1 Wool Shirt" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring I"
         },        
         {
@@ -532,7 +532,7 @@
             "name":"Wool Trousers" ,
             "ingredients":"2 Wool" ,
             "return":"1 Wool Trousers" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring I"
         },        
         {
@@ -540,7 +540,7 @@
             "name":"Boots" ,
             "ingredients":"1 Leather" ,
             "return":"Boots" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring II"
         },
         {
@@ -548,7 +548,7 @@
             "name":"Leather Armor" ,
             "ingredients":"2 Leather" ,
             "return":"1 Leather Armor" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring II"
         },
         {
@@ -556,7 +556,7 @@
             "name":"Leather Helmet" ,
             "ingredients":"2 Leather" ,
             "return":"1 Leather Helmet" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring II"
         },
         {
@@ -564,7 +564,7 @@
             "name":"Leather Legs Armor" ,
             "ingredients":"2 Leather" ,
             "return":"1 Leather Legs Armor" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring II"
         },
         {
@@ -572,7 +572,7 @@
             "name":"Reinforcered Leather Armor" ,
             "ingredients":"1 Iron Piece , 2 Leather" ,
             "return":"1 Reinforcered Leather Armor" , 
-            "Tool": "Scissors",
+            "Tool": "1 Scissors",
             "Profesion": "Tailoring II"
         }
     ]
