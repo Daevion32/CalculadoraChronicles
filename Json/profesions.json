@@ -2,35 +2,43 @@
     "Bakery":[
         {
             "id":1,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Bread" ,
+            "ingredients":"1 Wheat" ,
+            "return":"1 Bread" , 
+            "Tool": "Cooking Pot",
+            "Profesion": "Cooking I"
         },
         {
             "id":2,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Fish Soup" ,
+            "ingredients":"1 Fish , 1 Pottery" ,
+            "return":"1 Fish Soup" , 
+            "Tool": "Cooking Pot",
+            "Profesion": "Cooking I"
         },
         {
             "id":3,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Meat Soup" ,
+            "ingredients":"1 Meat , 1 Pottery" ,
+            "return":"1 Meat Soup" , 
+            "Tool": "Cooking Pot",
+            "Profesion": "Cooking I"
         },
         {
             "id":4,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Complete Fish Meal" ,
+            "ingredients":"1 Fish Soup , 1 Bread" ,
+            "return":"1 Complete Fish Meal" , 
+            "Tool": "Cooking Pot",
+            "Profesion": "Cooking II"
+        },
+        {
+            "id":5,
+            "name":"Complete Meat Meal" ,
+            "ingredients":"1 Meat Soup , 1 Bread" ,
+            "return":"1 Complete Meat Meal" , 
+            "Tool": "Cooking Pot",
+            "Profesion": "Cooking II"
         }
     ],
     "Blacksmith":[
@@ -229,6 +237,62 @@
             "return":"" , 
             "Tool": "",
             "Profesion": ""
+        },
+        {
+            "id":5,
+            "name":"" ,
+            "ingredients":"" ,
+            "return":"" , 
+            "Tool": "",
+            "Profesion": ""
+        },
+        {
+            "id":6,
+            "name":"" ,
+            "ingredients":"" ,
+            "return":"" , 
+            "Tool": "",
+            "Profesion": ""
+        },
+        {
+            "id":7,
+            "name":"" ,
+            "ingredients":"" ,
+            "return":"" , 
+            "Tool": "",
+            "Profesion": ""
+        },
+        {
+            "id":8,
+            "name":"" ,
+            "ingredients":"" ,
+            "return":"" , 
+            "Tool": "",
+            "Profesion": ""
+        },
+        {
+            "id":9,
+            "name":"" ,
+            "ingredients":"" ,
+            "return":"" , 
+            "Tool": "",
+            "Profesion": ""
+        },
+        {
+            "id":10,
+            "name":"" ,
+            "ingredients":"" ,
+            "return":"" , 
+            "Tool": "",
+            "Profesion": ""
+        },
+        {
+            "id":11,
+            "name":"" ,
+            "ingredients":"" ,
+            "return":"" , 
+            "Tool": "",
+            "Profesion": ""
         }
     ],
     "Farmer":[
@@ -325,52 +389,45 @@
     "Herbalist":[
         {
             "id":1,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Ink Bulb" ,
+            "ingredients":"1 Glass Bulb , 2 Mulberry" ,
+            "return":"1 Ink Bulb" , 
+            "Tool": "Mortar & Pestle",
+            "Profesion": "Herbalist I"
         },
         {
             "id":2,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Healing Infusion" ,
+            "ingredients":"1 Honey , 1 Medical Plant" ,
+            "return":"1 Healing Infusion" , 
+            "Tool": "Mortar & Pestle",
+            "Profesion": "Herbalist I"
         },
         {
             "id":3,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Paper Sheet" ,
+            "ingredients":"1 Hemp" ,
+            "return":"1 Paper Sheet" ,  
+            "Tool": "Mortar & Pestle",
+            "Profesion": "Herbalist I"
         },
         {
             "id":4,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Wax Seal" ,
+            "ingredients":"1 Wax" ,
+            "return":"1 Wax Seal" , 
+            "Tool": "Mortar & Pestle",
+            "Profesion": "Herbalist I"
         },
         {
             "id":5,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":6,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Writing Kit" ,
+            "ingredients":"1 Ink Bulb , 1 Paper Sheet" ,
+            "return":"1 Writing Kit" ,  
+            "Tool": "Mortar & Pestle",
+            "Profesion": "Herbalist I"
         }
+
     ],
     "Potter":[
         {
@@ -425,114 +482,114 @@
     "Tailor":[
         {
             "id":1,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Bellow" ,
+            "ingredients":"2 Leather , 1 Wood Piece" ,
+            "return":"1 Bellow" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring I"
         },    
         {
             "id":2,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Fishing Net" ,
+            "ingredients":"3 Hemp" ,
+            "return":"1 Fishing Net" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring I"
         },        
         {
             "id":3,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Linen Shirt" ,
+            "ingredients":"2 Linen" ,
+            "return":"1 Linen Shirt" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring I"
         },        
         {
             "id":4,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Linen Trousers" ,
+            "ingredients":"2 Linen" ,
+            "return":"1 Linen Trousers" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring I"
         },        
         {
             "id":5,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Shoes" ,
+            "ingredients":"1 Leather" ,
+            "return":"1 Shoes" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring I"
         },        
         {
             "id":6,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Wool Hat" ,
+            "ingredients":"1 Wool" ,
+            "return":"1 Wool Hat" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring I"
         },        
         {
             "id":7,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Wool Gloves" ,
+            "ingredients":"1 Wool" ,
+            "return":"1 Woo Gloves" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring I"
         },        
         {
             "id":8,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Wool Shirt" ,
+            "ingredients":"2 Wool" ,
+            "return":"1 Wool Shirt" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring I"
         },        
         {
             "id":9,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Wool Trousers" ,
+            "ingredients":"2 Wool" ,
+            "return":"1 Wool Trousers" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring I"
         },        
         {
             "id":10,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Boots" ,
+            "ingredients":"1 Leather" ,
+            "return":"Boots" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring II"
         },
         {
             "id":11,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Leather Armor" ,
+            "ingredients":"2 Leather" ,
+            "return":"1 Leather Armor" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring II"
         },
         {
             "id":12,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Leather Helmet" ,
+            "ingredients":"2 Leather" ,
+            "return":"1 Leather Helmet" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring II"
         },
         {
             "id":13,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Leather Legs Armor" ,
+            "ingredients":"2 Leather" ,
+            "return":"1 Leather Legs Armor" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring II"
         },
         {
             "id":14,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Reinforcered Leather Armor" ,
+            "ingredients":"1 Iron Piece , 2 Leather" ,
+            "return":"1 Reinforcered Leather Armor" , 
+            "Tool": "Scissors",
             "Profesion": "Tailoring II"
         }
     ]
