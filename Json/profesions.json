@@ -198,102 +198,94 @@
         }
     ],
     "Carpenter":[
-        {
-            "id":1,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":2,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":3,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":4,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":5,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":5,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":6,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":7,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":8,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":9,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":10,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        },
-        {
-            "id":11,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
-        }
+            {
+                "id":6,
+                "name":"Barrel" ,
+                "ingredients":"1 Wooden Board , 1 Pile of Nails" ,
+                "return":"1 Barrel" , 
+                "Tool": "Saw",
+                "Profesion": "Carpenter I"
+            },
+            {
+                "id":2,
+                "name":"Knife" ,
+                "ingredients":"1 Iron Ore , 1 Wood Piece" ,
+                "return":"1 Knife" , 
+                "Tool": "Saw",
+                "Profesion": "Carpenter I"
+            },
+            {
+                "id":3,
+                "name":"Hammer" ,
+                "ingredients":"1 Iron Ore , 1 Wood Piece" ,
+                "return":"1 Hammer" , 
+                "Tool": "Saw",
+                "Profesion": "Carpenter I"
+            },
+            {
+                "id":4,
+                "name":"Potter Tools" ,
+                "ingredients":"1 Iron Ore , 1 Wood Piece" ,
+                "return":"1 Potter Tools" , 
+                "Tool": "Saw",
+                "Profesion": "Carpenter I"
+            },
+            {
+                "id":5,
+                "name":"Sickle" ,
+                "ingredients":"1 Iron Ore , 1 Wood Piece" ,
+                "return":"1 Sickle" , 
+                "Tool": "Saw",
+                "Profesion": "Carpenter I"
+            },
+            {
+                "id":6,
+                "name":"Shovel" ,
+                "ingredients":"1 Iron Ore , 1 Wood Piece" ,
+                "return":"1 Shovel" , 
+                "Tool": "Saw",
+                "Profesion": "Carpenter I"
+            },
+            {
+                "id":7,
+                "name":"Wooden Board" ,
+                "ingredients":"1 Wood Piece" ,
+                "return":"1 Wooden Board" , 
+                "Tool": "Saw",
+                "Profesion": "Carpenter I"
+            },
+            {
+                "id":8,
+                "name":"Club" ,
+                "ingredients":"2 Wood Piece" ,
+                "return":"1 Club" , 
+                "Tool": "Saw",
+                "Profesion": "Carpenter II"
+            },
+            {
+                "id":9,
+                "name":"Pike" ,
+                "ingredients":"2 Wood Piece , 1 Iron Ore , 1 Coal Piece"  ,
+                "return":"1 Pike" , 
+                "Tool": "Saw",
+                "Profesion": "Carpenter II"
+            },
+            {
+                "id":10,
+                "name":"Wooden Shield" ,
+                "ingredients":"2 Wood Piece , 1 Pile of Nails" ,
+                "return":"1 Wooden Shield" , 
+                "Tool": "Saw",
+                "Profesion": "Carpenter II"
+            },
+            {
+                "id":11,
+                "name":"Reinforced Wooden Shield" ,
+                "ingredients":"2 Wood Piece , 1 Iron Ore , 1 Pile of Nails" ,
+                "return":"1 Reinforced Wooden Shield" , 
+                "Tool": "Saw",
+                "Profesion": "Carpenter II"
+            }    
     ],
     "Farmer":[
         {
