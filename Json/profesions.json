@@ -290,91 +290,82 @@
     "Farmer":[
         {
             "id":1,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": "Farming I"
+            "name":"Barley" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Barley" , 
+            "Tool": "2 Hoe , 1 Sickle",
+            "Profesion": "Farming II"
         },
         {
             "id":2,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Cotton" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Cotton" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
             "Profesion": "Farming I"
         },
         {
             "id":3,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Flower" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Flower" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
             "Profesion": "Farming I"
         },
         {
             "id":4,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": "Farming I"
+            "name":"Grape" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Grape" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
+            "Profesion": "Farming II"
         },
         {
             "id":5,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Hemp" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Hemp" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
             "Profesion": "Farming I"
         },
         {
             "id":6,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Hop" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Hop" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
             "Profesion": "Farming I"
         },
         {
             "id":7,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Linen" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Linen" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
             "Profesion": "Farming I"
         },
         {
             "id":8,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": "Farming II"
-        },
-        {
+            "name":"Mulberry" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Mulberry" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
+            "Profesion": "Farming I"
+        },        {
             "id":9,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
+            "name":"Medical Plant" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Medical Plant" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
             "Profesion": "Farming II"
         },
         {
             "id":10,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": "Farming II"
-        },
-        {
-            "id":11,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": "Farming II"
+            "name":"Wheat" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Wheat , 2 Hay" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
+            "Profesion": "Farming I"
         }
         
     ],
