@@ -201,7 +201,7 @@
             {
                 "id":6,
                 "name":"Barrel" ,
-                "ingredients":"1 Wooden Board , 1 Pile of Nails" ,
+                "ingredients":"1 Pile of Nails , 1 Wooden Board" ,
                 "return":"1 Barrel" , 
                 "Tool": "Saw",
                 "Profesion": "Carpenter I"
@@ -265,7 +265,7 @@
             {
                 "id":9,
                 "name":"Pike" ,
-                "ingredients":"2 Wood Piece , 1 Iron Ore , 1 Coal Piece"  ,
+                "ingredients":"1 Coal Piece , 1 Iron Ore , 2 Wood Piece"  ,
                 "return":"1 Pike" , 
                 "Tool": "Saw",
                 "Profesion": "Carpenter II"
@@ -273,7 +273,7 @@
             {
                 "id":10,
                 "name":"Wooden Shield" ,
-                "ingredients":"2 Wood Piece , 1 Pile of Nails" ,
+                "ingredients":" 1 Pile of Nails , 2 Wood Piece" ,
                 "return":"1 Wooden Shield" , 
                 "Tool": "Saw",
                 "Profesion": "Carpenter II"
@@ -281,7 +281,7 @@
             {
                 "id":11,
                 "name":"Reinforced Wooden Shield" ,
-                "ingredients":"2 Wood Piece , 1 Iron Ore , 1 Pile of Nails" ,
+                "ingredients":" 1 Iron Ore , 1 Pile of Nails , 2 Wood Piece" ,
                 "return":"1 Reinforced Wooden Shield" , 
                 "Tool": "Saw",
                 "Profesion": "Carpenter II"
