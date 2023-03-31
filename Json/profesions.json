@@ -10,6 +10,14 @@
         },
         {
             "id":2,
+            "name":"Cheese" ,
+            "ingredients":"1 Milk , 1 Salt" ,
+            "return":"1 Cheese" , 
+            "Tool": "1 Cooking Pot",
+            "Profesion": "Cooking I"
+        },
+        {
+            "id":3,
             "name":"Fish Soup" ,
             "ingredients":"1 Fish , 1 Pottery" ,
             "return":"1 Fish Soup" , 
@@ -17,7 +25,7 @@
             "Profesion": "Cooking I"
         },
         {
-            "id":3,
+            "id":4,
             "name":"Meat Soup" ,
             "ingredients":"1 Meat , 1 Pottery" ,
             "return":"1 Meat Soup" , 
@@ -25,7 +33,7 @@
             "Profesion": "Cooking I"
         },
         {
-            "id":4,
+            "id":5,
             "name":"Complete Fish Meal" ,
             "ingredients":"1 Fish Soup , 1 Bread" ,
             "return":"1 Complete Fish Meal" , 
@@ -33,7 +41,7 @@
             "Profesion": "Cooking II"
         },
         {
-            "id":5,
+            "id":6 ,
             "name":"Complete Meat Meal" ,
             "ingredients":"1 Meat Soup , 1 Bread" ,
             "return":"1 Complete Meat Meal" , 
@@ -166,35 +174,35 @@
     "Breeder":[
         {
             "id":1,
-            "name":"" ,
-            "ingredients":"" ,
+            "name":"Bees" ,
+            "ingredients":"4 Flowers" ,
             "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "Tool": "Bellow",
+            "Profesion": "Breeding I"
         },
         {
             "id":2,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Cow" ,
+            "ingredients":"4 Hay" ,
+            "return":" 2 Leather , 3 Manure , 1 Meat  , 1 Milk" , 
+            "Tool": "Knife",
+            "Profesion": "Breeding I"
         },
         {
             "id":3,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Pig" ,
+            "ingredients":"4 Hay" ,
+            "return":"3 Manure , 5 Meat" , 
+            "Tool": "Knife",
+            "Profesion": "Breeding I"
         },
         {
             "id":4,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Sheep" ,
+            "ingredients":"4 Hay" ,
+            "return":"3 Manure , 1 Meat  , 1 Milk  , 2 Wool" , 
+            "Tool": "Knife",
+            "Profesion": "Breeding I"
         }
     ],
     "Carpenter":[
@@ -290,46 +298,40 @@
     "Farmer":[
         {
             "id":1,
-            "name":"Barley" ,
-            "ingredients":"1 Manure" ,
-            "return":"5 Barley" , 
-            "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming II"
-        },
-        {
-            "id":2,
-            "name":"Cotton" ,
+            "name":"Cotton" ,                                                   
             "ingredients":"1 Manure" ,
             "return":"5 Cotton" , 
             "Tool": "2 Hoe , 1 Sickle" ,
             "Profesion": "Farming I"
         },
         {
-            "id":3,
+            "id":2,
             "name":"Flower" ,
             "ingredients":"1 Manure" ,
             "return":"5 Flower" , 
             "Tool": "2 Hoe , 1 Sickle" ,
             "Profesion": "Farming I"
+            
+        },
+        {
+            "id":3,
+            "name":"Hay" ,
+            "ingredients":"1 Hay" ,
+            "return":"7 Hay" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
+            "Profesion": "Farming I"
         },
         {
             "id":4,
-            "name":"Grape" ,
-            "ingredients":"1 Manure" ,
-            "return":"5 Grape" , 
-            "Tool": "2 Hoe , 1 Sickle" ,
-            "Profesion": "Farming II"
-        },
-        {
-            "id":5,
             "name":"Hemp" ,
             "ingredients":"1 Manure" ,
             "return":"5 Hemp" , 
             "Tool": "2 Hoe , 1 Sickle" ,
             "Profesion": "Farming I"
+
         },
         {
-            "id":6,
+            "id":5,
             "name":"Hop" ,
             "ingredients":"1 Manure" ,
             "return":"5 Hop" , 
@@ -337,7 +339,7 @@
             "Profesion": "Farming I"
         },
         {
-            "id":7,
+            "id":6,
             "name":"Linen" ,
             "ingredients":"1 Manure" ,
             "return":"5 Linen" , 
@@ -345,29 +347,46 @@
             "Profesion": "Farming I"
         },
         {
-            "id":8,
+            "id":7,
             "name":"Mulberry" ,
             "ingredients":"1 Manure" ,
             "return":"5 Mulberry" , 
             "Tool": "2 Hoe , 1 Sickle" ,
             "Profesion": "Farming I"
-        },        {
-            "id":9,
-            "name":"Medical Plant" ,
-            "ingredients":"1 Manure" ,
-            "return":"5 Medical Plant" , 
-            "Tool": "2 Hoe , 1 Sickle" ,
-            "Profesion": "Farming II"
         },
         {
-            "id":10,
+            "id":8,
             "name":"Wheat" ,
             "ingredients":"1 Manure" ,
             "return":"5 Wheat , 2 Hay" , 
             "Tool": "2 Hoe , 1 Sickle" ,
             "Profesion": "Farming I"
-        }
-        
+
+        },      
+        {
+            "id":9,
+            "name":"Barley" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Barley" , 
+            "Tool": "2 Hoe , 1 Sickle",
+            "Profesion": "Farming II"
+        },
+        {
+            "id":10,
+            "name":"Grape" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Grape" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
+            "Profesion": "Farming II"
+        },
+        {
+            "id":11,
+            "name":"Medical Plant" ,
+            "ingredients":"1 Manure" ,
+            "return":"5 Medical Plant" , 
+            "Tool": "2 Hoe , 1 Sickle" ,
+            "Profesion": "Farming II"
+        }   
     ],
     "Herbalist":[
         {
@@ -415,51 +434,59 @@
     "Potter":[
         {
             "id":1,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Cooking Pot" ,
+            "ingredients":"1 Clay Piece , 1 Coal Piece" ,
+            "return":"1 Cooking Pot" , 
+            "Tool": "Potter Tools",
+            "Profesion": "Pottery I"
         },
         {
             "id":2,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Distiller" ,	 
+            "ingredients":"1 Coal Piece , 1 Sand Heap" ,
+            "return":"1 Distiller" , 
+            "Tool": "Potter Tools",
+            "Profesion": "Pottery I"
         },
         {
             "id":3,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Glass Bottle" ,
+            "ingredients":"1 Coal Piece , 1 Sand Heap" ,
+            "return":"1 Glass Bottle" , 
+            "Tool": "Potter Tools",
+            "Profesion": "Pottery I"
         },
         {
             "id":4,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Glass Bulb" ,
+            "ingredients":"1 Coal Piece , 1 Sand Piece" ,
+            "return":"1 Glass Bulb" , 
+            "Tool": "Potter Tools",
+            "Profesion": "Pottery I"
         },
         {
             "id":5,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Glass Panel" ,
+            "ingredients":"2 Coal Piece , 2 Sand Piece" ,
+            "return":"1 Glass Panel" , 
+            "Tool": "Potter Tools",
+            "Profesion": "Pottery I"
         },
         {
             "id":6,
-            "name":"" ,
-            "ingredients":"" ,
-            "return":"" , 
-            "Tool": "",
-            "Profesion": ""
+            "name":"Mortar and Pestle" ,
+            "ingredients":"1 Clay Piece , 1 Coal Piece" ,
+            "return":"1 Mortar and Pestle" , 
+            "Tool": "Potter Tools",
+            "Profesion": "Pottery I"
+        },
+        {
+            "id":7,
+            "name":"Pottery" ,
+            "ingredients":"1 Clay Piece , 1 Coal Piece" ,
+            "return":"1 Pottery" , 
+            "Tool": "Potter Tools",
+            "Profesion": "Pottery I"
         }
     ],
     "Tailor":[
