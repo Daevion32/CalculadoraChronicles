@@ -224,7 +224,7 @@ fetchProfesionsJson().then((profesions) => {
 })
 fetchProfesionsJson().then((profesions) => {
     for (let index = 0; index < profesions.Tailor.length; index++) {
-      const tailorSecion = document.getElementById("TailorSection");
+      const tailorSection = document.getElementById("TailorSection");
   
       let id = profesions.Tailor[index].id;
       let name = profesions.Tailor[index].name;
