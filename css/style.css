@@ -3,8 +3,17 @@
     margin: 0;
 
 }
+h1{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    margin-top: 30px;
+}
 
-.bakery{
+.profesion{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +21,6 @@
     position: relative;
     height: 245px;
     width: 750px;
-    margin: 200px;
+    margin:50px;
 
 }

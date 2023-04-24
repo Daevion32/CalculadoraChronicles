@@ -62,7 +62,8 @@
                 "ingredients":"1 Iron Ore , 1 Wood Piece" ,
                 "return":"1 Hatchet" , 
                 "Tool": "1 Hammer" , 
-                "Profesion": "Blacksmithing I"
+                "Profesion": "Blacksmithing I",
+                "Price":""
             },
             {
                 "id":2,
@@ -70,7 +71,8 @@
                 "ingredients":"1 Iron Ore , 1 Wood Piece" ,
                 "return":"1 Hoe" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing I"
+                "Profesion": "Blacksmithing I",
+                "Price":""
             },
             {
                 "id":3,
@@ -78,7 +80,8 @@
                 "ingredients":"1 Coal Piece , 1 Iron Piece" ,
                 "return":"1 Medical Scalpel" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing I"
+                "Profesion": "Blacksmithing I",
+                "Price":""
             },
             {
                 "id":4,
@@ -86,7 +89,8 @@
                 "ingredients":"1 Iron Ore , 1 Wood Piece" ,
                 "return":"1 Pickaxe" ,  
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing I"
+                "Profesion": "Blacksmithing I",
+                "Price":""
             },
             {
                 "id":5,
@@ -94,7 +98,8 @@
                 "ingredients":"1 Iron Ore" ,
                 "return":"1 Pickaxe" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing I"
+                "Profesion": "Blacksmithing I",
+                "Price":""
             },
             {
                 "id":6,
@@ -102,7 +107,8 @@
                 "ingredients":"1 Iron Ore , 1 Wood Piece" ,
                 "return":"1 Saw" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing I"
+                "Profesion": "Blacksmithing I",
+                "Price":""
             },
             {
                 "id":7,
@@ -110,7 +116,8 @@
                 "ingredients":"1 Coal Piece , 1 Iron Piece" ,
                 "return":"1 Scissors" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing I"
+                "Profesion": "Blacksmithing I",
+                "Price":""
             },        
             {
                 "id":8,
@@ -118,7 +125,8 @@
                 "ingredients":"2 Coal Piece , 3 Iron Ore" ,
                 "return":"1 Chainmail" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing II"
+                "Profesion": "Blacksmithing II",
+                "Price":""
             },
             {
                 "id":9,
@@ -126,7 +134,8 @@
                 "ingredients":"1 Coal Piece , 2 Iron Ore" ,
                 "return":"1 Iron Helmet" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing II"
+                "Profesion": "Blacksmithing II",
+                "Price":""
             },
             {
                 "id":10,
@@ -134,7 +143,8 @@
                 "ingredients":"1 Coal Piece , 2 Iron Ore" ,
                 "return":"1 Iron Shield" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing II"
+                "Profesion": "Blacksmithing II",
+                "Price":""
             },
             {
                 "id":11,
@@ -142,7 +152,8 @@
                 "ingredients":"1 Coal Piece , 2 Iron Ore" ,
                 "return":"1 Iron Sword" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing II"
+                "Profesion": "Blacksmithing II",
+                "Price":""
             },
             {
                 "id":12,
@@ -150,7 +161,8 @@
                 "ingredients":"2 Coal Piece , 2 Iron Ore" ,
                 "return":"1 Knight Helmet" ,  
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing II"
+                "Profesion": "Blacksmithing II",
+                "Price":""
             },
             {
                 "id":13,
@@ -158,7 +170,8 @@
                 "ingredients":"3 Coal Piece , 4 Iron Ore" ,
                 "return":"1 Plates Armor" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing II"
+                "Profesion": "Blacksmithing II",
+                "Price":""
             },
             {
                 "id":14,
@@ -166,7 +179,8 @@
                 "ingredients":"2 Coal Piece , 3 Iron Ore" ,
                 "return":"1 Plates Legs Armor" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing II"
+                "Profesion": "Blacksmithing II",
+                "Price":""
             },
             {
                 "id":15,
@@ -174,7 +188,8 @@
                 "ingredients":"1 Coal Piece , 2 Iron ore , 1 Wood Piece" ,
                 "return":"1 Waraxe" , 
                 "Tool": "1 Hammer",
-                "Profesion": "Blacksmithing II"
+                "Profesion": "Blacksmithing II",
+                "Price":""
             }
         ],
         "Breeder":[
@@ -401,7 +416,8 @@
                 "ingredients":"1 Glass Bulb , 2 Mulberry" ,
                 "return":"1 Ink Bulb" , 
                 "Tool": "1 Mortar & Pestle",
-                "Profesion": "Herbalist I"
+                "Profesion": "Herbalist I",
+                "Price":""
             },
             {
                 "id":2,
@@ -409,7 +425,8 @@
                 "ingredients":"1 Honey , 1 Medical Plant" ,
                 "return":"1 Healing Infusion" , 
                 "Tool": "1 Mortar & Pestle",
-                "Profesion": "Herbalist I"
+                "Profesion": "Herbalist I",
+                "Price":""
             },
             {
                 "id":3,
@@ -417,7 +434,8 @@
                 "ingredients":"1 Hemp" ,
                 "return":"1 Paper Sheet" ,  
                 "Tool": "1 Mortar & Pestle",
-                "Profesion": "Herbalist I"
+                "Profesion": "Herbalist I",
+                "Price":""
             },
             {
                 "id":4,
@@ -425,7 +443,8 @@
                 "ingredients":"1 Wax" ,
                 "return":"1 Wax Seal" , 
                 "Tool": "1 Mortar & Pestle",
-                "Profesion": "Herbalist I"
+                "Profesion": "Herbalist I",
+                "Price":""
             },
             {
                 "id":5,
@@ -433,7 +452,8 @@
                 "ingredients":"1 Ink Bulb , 1 Paper Sheet" ,
                 "return":"1 Writing Kit" ,  
                 "Tool": "1 Mortar & Pestle",
-                "Profesion": "Herbalist I"
+                "Profesion": "Herbalist I",
+                "Price":""
             }
 
         ],

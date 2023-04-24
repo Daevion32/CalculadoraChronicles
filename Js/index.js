@@ -42,7 +42,8 @@ fetchdata().then((data) => {
       let ingredients = data.Blacksmith[index].ingredients;
       let product = data.Blacksmith[index].return;
       let tool = data.Blacksmith[index].Tool;
-      let profesion = data.Blacksmith[index].Profesion
+      let profesion = data.Blacksmith[index].Profesion;
+      let price = data.Blacksmith[index].Price
   
       blacksmithSection.innerHTML += `
    
@@ -71,7 +72,8 @@ fetchdata().then((data) => {
       let ingredients = data.Breeder[index].ingredients;
       let product = data.Breeder[index].return;
       let tool = data.Breeder[index].Tool;
-      let profesion = data.Breeder[index].Tool
+      let profesion = data.Breeder[index].Profesion;
+      let price = data.Breeder[index].Price
   
       breederSection.innerHTML += `
    
@@ -83,7 +85,8 @@ fetchdata().then((data) => {
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
-                  <td>${tool}</td>                  <td>${profesion}</td>
+                  <td>${tool}</td>                  
+                  <td>${profesion}</td>
                   <td>${price}</td>
               </tr>
           </div>
@@ -99,7 +102,8 @@ fetchdata().then((data) => {
       let ingredients = data.Carpenter[index].ingredients;
       let product = data.Carpenter[index].return;
       let tool = data.Carpenter[index].Tool;
-      let profesion = data.Carpenter[index].Tool
+      let profesion = data.Carpenter[index].Profesion;
+      let price = data.Carpenter[index].Price
   
       carpenterSection.innerHTML += `
    
@@ -111,7 +115,8 @@ fetchdata().then((data) => {
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
-                  <td>${tool}</td>                  <td>${profesion}</td>
+                  <td>${tool}</td>                  
+                  <td>${profesion}</td>
                   <td>${price}</td>
               </tr>
           </div>
@@ -128,7 +133,8 @@ fetchdata().then((data) => {
       let ingredients = data.Farmer[index].ingredients;
       let product = data.Farmer[index].return;
       let tool = data.Farmer[index].Tool;
-      let profesion = data.Farmer[index].Tool
+      let profesion = data.Farmer[index].Profesion;
+      let price = data.Farmer[index].Price
   
       farmerSection.innerHTML += `
    
@@ -140,7 +146,8 @@ fetchdata().then((data) => {
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
-                  <td>${tool}</td>                  <td>${profesion}</td>
+                  <td>${tool}</td>                  
+                  <td>${profesion}</td>
                   <td>${price}</td>
               </tr>
           </div>
@@ -157,7 +164,8 @@ fetchdata().then((data) => {
       let ingredients = data.Herbalist[index].ingredients;
       let product = data.Herbalist[index].return;
       let tool = data.Herbalist[index].Tool;
-      let profesion = data.Herbalist[index].Tool
+      let profesion = data.Herbalist[index].Profesion;
+      let price = data.Herbalist[index].Price
   
       herbalistSection.innerHTML += `
    
@@ -169,7 +177,8 @@ fetchdata().then((data) => {
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
-                  <td>${tool}</td>                  <td>${profesion}</td>
+                  <td>${tool}</td>                  
+                  <td>${profesion}</td>
                   <td>${price}</td>
               </tr>
           </div>
@@ -186,7 +195,8 @@ fetchdata().then((data) => {
       let ingredients = data.Potter[index].ingredients;
       let product = data.Potter[index].return;
       let tool = data.Potter[index].Tool;
-      let profesion = data.Potter[index].Tool
+      let profesion = data.Potter[index].Profesion;
+      let price = data.Potter[index].Price
   
       potterSection.innerHTML += `
    
@@ -198,7 +208,8 @@ fetchdata().then((data) => {
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
-                  <td>${tool}</td>                  <td>${profesion}</td>
+                  <td>${tool}</td>                  
+                  <td>${profesion}</td>
                   <td>${price}</td>
               </tr>
           </div>
@@ -214,7 +225,8 @@ fetchdata().then((data) => {
       let ingredients = data.Tailor[index].ingredients;
       let product = data.Tailor[index].return;
       let tool = data.Tailor[index].Tool;
-      let profesion = data.Tailor[index].Tool
+      let profesion = data.Tailor[index].Profesion;
+      let price = data.Tailor[index].Price
   
       tailorSection.innerHTML += `
         <div>
@@ -223,7 +235,8 @@ fetchdata().then((data) => {
                 <td>${name}</td>
                 <td>${ingredients}</td>
                 <td>${product}</td>
-                <td>${tool}</td>                <td>${profesion}</td>
+                <td>${tool}</td>                
+                <td>${profesion}</td>
                 <td>${profesion}</td>
             </tr>
         </div>  
