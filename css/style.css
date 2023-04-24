@@ -21,6 +21,11 @@ h1{
     gap: 40px;
     justify-content: flex-end;
 }
+.Home{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+}
 a.button {
     display: inline-block;
     padding: 10px 20px;
