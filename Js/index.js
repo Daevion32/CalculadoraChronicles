@@ -47,11 +47,7 @@ fetchdata().then((data) => {
   
       blacksmithSection.innerHTML += `
    
-      <div class="card";">
-    
-          <div class="card-body">
               <tr>
-                  
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
@@ -59,8 +55,7 @@ fetchdata().then((data) => {
                   <td>${profesion}</td>
                   <td>${price}</td>
               </tr>
-          </div>
-      </div>
+
         
         `;
     }  
