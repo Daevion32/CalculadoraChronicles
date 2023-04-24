@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.bakery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 245px;
+    width: 750px;
+    margin: 200px;
+
+}

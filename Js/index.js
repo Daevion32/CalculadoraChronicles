@@ -1,49 +1,48 @@
-const requestUrl = "./json/profesions.json";
+const requestUrl = "./json/data.json";
 
-async function fetchProfesionsJson() {
+async function fetchdata() {
   const response = await fetch(requestUrl);
-  const profesions = await response.json();
-  console.log(profesions)
-  return profesions;
+  const data = await response.json();
+
+  return data;
 
 }
 
-fetchProfesionsJson().then((profesions) => {
-  for (let index = 0; index < profesions.Bakery.length; index++) {
+fetchdata().then((data) => {
+  for (let index = 0; index < data.Bakery.length; index++) {
     const bakerySection = document.getElementById("BakerySection");
-    let name = profesions.Bakery[index].name;
-    let ingredients = profesions.Bakery[index].ingredients;
-    let product = profesions.Bakery[index].return;
-    let tool = profesions.Bakery[index].Tool;
-    let profesion = profesions.Bakery[index].Profesion
+    let name = data.Bakery[index].name;
+    let ingredients = data.Bakery[index].ingredients;
+    let product = data.Bakery[index].return;
+    let tool = data.Bakery[index].Tool;
+    let profesion = data.Bakery[index].Profesion;
+    let price = data.Bakery[index].Price
 
     bakerySection.innerHTML += `
  
-    <div class="card";">
   
-        <div class="card-body">
             <tr>
-                
                 <td>${name}</td>
                 <td>${ingredients}</td>
                 <td>${product}</td>
-                <td>${tool}</td
+                <td>${tool}</td>
                 <td>${profesion}</td>
+                <td>${price}</td>
+            
             </tr>
-        </div>
-    </div>
+
       
       `;
   }
-    for (let index = 0; index < profesions.Blacksmith.length; index++) {
+    for (let index = 0; index < data.Blacksmith.length; index++) {
       const blacksmithSection = document.getElementById("BlacksmithSection");
   
       
-      let name = profesions.Blacksmith[index].name;
-      let ingredients = profesions.Blacksmith[index].ingredients;
-      let product = profesions.Blacksmith[index].return;
-      let tool = profesions.Blacksmith[index].Tool;
-      let profesion = profesions.Blacksmith[index].Profesion
+      let name = data.Blacksmith[index].name;
+      let ingredients = data.Blacksmith[index].ingredients;
+      let product = data.Blacksmith[index].return;
+      let tool = data.Blacksmith[index].Tool;
+      let profesion = data.Blacksmith[index].Profesion
   
       blacksmithSection.innerHTML += `
    
@@ -55,23 +54,24 @@ fetchProfesionsJson().then((profesions) => {
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
-                  <td>${tool}</td
+                  <td>${tool}</td>
                   <td>${profesion}</td>
+                  <td>${price}</td>
               </tr>
           </div>
       </div>
         
         `;
     }  
-    for (let index = 0; index < profesions.Breeder.length; index++) {
+    for (let index = 0; index < data.Breeder.length; index++) {
       const breederSection = document.getElementById("BreederSection");
   
      
-      let name = profesions.Breeder[index].name;
-      let ingredients = profesions.Breeder[index].ingredients;
-      let product = profesions.Breeder[index].return;
-      let tool = profesions.Breeder[index].Tool;
-      let profesion = profesions.Breeder[index].Tool
+      let name = data.Breeder[index].name;
+      let ingredients = data.Breeder[index].ingredients;
+      let product = data.Breeder[index].return;
+      let tool = data.Breeder[index].Tool;
+      let profesion = data.Breeder[index].Tool
   
       breederSection.innerHTML += `
    
@@ -83,23 +83,23 @@ fetchProfesionsJson().then((profesions) => {
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
-                  <td>${tool}</td
-                  <td>${profesion}</td>
+                  <td>${tool}</td>                  <td>${profesion}</td>
+                  <td>${price}</td>
               </tr>
           </div>
       </div>
         
         `;
     }  
-    for (let index = 0; index < profesions.Carpenter.length; index++) {
+    for (let index = 0; index < data.Carpenter.length; index++) {
       const carpenterSection = document.getElementById("CarpenterSection");
   
       
-      let name = profesions.Carpenter[index].name;
-      let ingredients = profesions.Carpenter[index].ingredients;
-      let product = profesions.Carpenter[index].return;
-      let tool = profesions.Carpenter[index].Tool;
-      let profesion = profesions.Carpenter[index].Tool
+      let name = data.Carpenter[index].name;
+      let ingredients = data.Carpenter[index].ingredients;
+      let product = data.Carpenter[index].return;
+      let tool = data.Carpenter[index].Tool;
+      let profesion = data.Carpenter[index].Tool
   
       carpenterSection.innerHTML += `
    
@@ -111,8 +111,8 @@ fetchProfesionsJson().then((profesions) => {
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
-                  <td>${tool}</td
-                  <td>${profesion}</td>
+                  <td>${tool}</td>                  <td>${profesion}</td>
+                  <td>${price}</td>
               </tr>
           </div>
       </div>
@@ -120,15 +120,15 @@ fetchProfesionsJson().then((profesions) => {
         `;
     }  
 
-    for (let index = 0; index < profesions.Farmer.length; index++) {
+    for (let index = 0; index < data.Farmer.length; index++) {
       const farmerSection = document.getElementById("FarmerSection");
   
       
-      let name = profesions.Farmer[index].name;
-      let ingredients = profesions.Farmer[index].ingredients;
-      let product = profesions.Farmer[index].return;
-      let tool = profesions.Farmer[index].Tool;
-      let profesion = profesions.Farmer[index].Tool
+      let name = data.Farmer[index].name;
+      let ingredients = data.Farmer[index].ingredients;
+      let product = data.Farmer[index].return;
+      let tool = data.Farmer[index].Tool;
+      let profesion = data.Farmer[index].Tool
   
       farmerSection.innerHTML += `
    
@@ -140,8 +140,8 @@ fetchProfesionsJson().then((profesions) => {
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
-                  <td>${tool}</td
-                  <td>${profesion}</td>
+                  <td>${tool}</td>                  <td>${profesion}</td>
+                  <td>${price}</td>
               </tr>
           </div>
       </div>
@@ -149,15 +149,15 @@ fetchProfesionsJson().then((profesions) => {
         `;
     }  
 
-    for (let index = 0; index < profesions.Herbalist.length; index++) {
+    for (let index = 0; index < data.Herbalist.length; index++) {
       const herbalistSection = document.getElementById("HerbalistSection");
   
      
-      let name = profesions.Herbalist[index].name;
-      let ingredients = profesions.Herbalist[index].ingredients;
-      let product = profesions.Herbalist[index].return;
-      let tool = profesions.Herbalist[index].Tool;
-      let profesion = profesions.Herbalist[index].Tool
+      let name = data.Herbalist[index].name;
+      let ingredients = data.Herbalist[index].ingredients;
+      let product = data.Herbalist[index].return;
+      let tool = data.Herbalist[index].Tool;
+      let profesion = data.Herbalist[index].Tool
   
       herbalistSection.innerHTML += `
    
@@ -169,8 +169,8 @@ fetchProfesionsJson().then((profesions) => {
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
-                  <td>${tool}</td
-                  <td>${profesion}</td>
+                  <td>${tool}</td>                  <td>${profesion}</td>
+                  <td>${price}</td>
               </tr>
           </div>
       </div>
@@ -178,15 +178,15 @@ fetchProfesionsJson().then((profesions) => {
         `;
     }  
 
-    for (let index = 0; index < profesions.Potter.length; index++) {
+    for (let index = 0; index < data.Potter.length; index++) {
       const potterSection = document.getElementById("PotterSection");
   
     
-      let name = profesions.Potter[index].name;
-      let ingredients = profesions.Potter[index].ingredients;
-      let product = profesions.Potter[index].return;
-      let tool = profesions.Potter[index].Tool;
-      let profesion = profesions.Potter[index].Tool
+      let name = data.Potter[index].name;
+      let ingredients = data.Potter[index].ingredients;
+      let product = data.Potter[index].return;
+      let tool = data.Potter[index].Tool;
+      let profesion = data.Potter[index].Tool
   
       potterSection.innerHTML += `
    
@@ -198,23 +198,23 @@ fetchProfesionsJson().then((profesions) => {
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
-                  <td>${tool}</td
-                  <td>${profesion}</td>
+                  <td>${tool}</td>                  <td>${profesion}</td>
+                  <td>${price}</td>
               </tr>
           </div>
       </div>
         
         `;
     }  
-   for (let index = 0; index < profesions.Tailor.length; index++) {
+   for (let index = 0; index < data.Tailor.length; index++) {
       const tailorSection = document.getElementById("TailorSection");
   
      
-      let name = profesions.Tailor[index].name;
-      let ingredients = profesions.Tailor[index].ingredients;
-      let product = profesions.Tailor[index].return;
-      let tool = profesions.Tailor[index].Tool;
-      let profesion = profesions.Tailor[index].Tool
+      let name = data.Tailor[index].name;
+      let ingredients = data.Tailor[index].ingredients;
+      let product = data.Tailor[index].return;
+      let tool = data.Tailor[index].Tool;
+      let profesion = data.Tailor[index].Tool
   
       tailorSection.innerHTML += `
         <div>
@@ -223,7 +223,7 @@ fetchProfesionsJson().then((profesions) => {
                 <td>${name}</td>
                 <td>${ingredients}</td>
                 <td>${product}</td>
-                <td>${tool}</td
+                <td>${tool}</td>                <td>${profesion}</td>
                 <td>${profesion}</td>
             </tr>
         </div>  
