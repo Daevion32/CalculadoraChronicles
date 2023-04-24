@@ -19,8 +19,31 @@ h1{
     align-items: center;
     justify-content: center;
     position: relative;
+    margin:50px;
+
+}
+.bakery{
     height: 245px;
     width: 750px;
-    margin:50px;
+}
+.blacksmith{
+
+}
+.breeder{
+
+}
+.carpenter{
+
+}
+.farmer{
+
+}
+.herbalist{
+
+}
+.potter{
+
+}
+.tailor{
 
 }
