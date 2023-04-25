@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Bread",
-            "ingredients": "1 Wheat",
+            "ingredients": ["1 Wheat"],
             "return": "1 Bread",
             "Tool": "1 Cooking Pot",
             "Profesion": "Cooking I",
@@ -12,7 +12,7 @@
         {
             "id": 2,
             "name": "Cheese",
-            "ingredients": "1 Milk , 1 Salt",
+            "ingredients": ["1 Milk" , "1 Salt"],
             "return": "1 Cheese",
             "Tool": "1 Cooking Pot",
             "Profesion": "Cooking I",
@@ -623,6 +623,85 @@
             "return": "1 Reinforcered Leather Armor",
             "Tool": "1 Scissors",
             "Profesion": "Tailoring II"
+        }
+    ],
+    "Materials":[
+        {
+            "id":1,
+            "name":"Bees",
+            "node":"Leon",
+            "Price":""
+            
+        },
+        {
+            "id":2,
+            "name":"Clay",
+            "node":"Leon",
+            "Price":""
+            
+        },
+        {
+            "id":3,
+            "name":"Coal",
+            "node":"Seville",
+            "Price":""
+            
+        },
+        {
+            "id":4,
+            "name":"Cow",
+            "node":"Cordova",
+            "Price":""
+            
+        },
+        {
+            "id":5,
+            "name": "Fish",
+            "node":"Ceuta",
+            "Price":""
+            
+        },        
+        {
+            "id":6,
+            "name": "Iron",
+            "node":"Toledo",
+            "Price":""
+            
+        },
+        {
+            "id":7,
+            "name": "Pig",
+            "node":"Toledo",
+            "Price":""
+            
+        },
+        {
+            "id":8,
+            "name": "Sand",
+            "node":"Oporto",
+            "Price":""
+            
+        },
+        {
+            "id":9,
+            "name": "Sheep",
+            "node":"Seville",
+            "Price":""
+            
+        },
+        {
+            "id":10,
+            "name": "Stone",
+            "node":"Cordova",
+            "Price":""
+            
+        },
+        {
+            "id":11,
+            "name": "Wood",
+            "node":"Lisbon",
+            "Price":""
+            
         }
     ]
 }
