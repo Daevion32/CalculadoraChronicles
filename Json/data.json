@@ -518,7 +518,8 @@
             "ingredients": "2 Leather , 1 Wood Piece",
             "return": "1 Bellow",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring I"
+            "Profesion": "Tailoring I",
+            "Price":""
         },
         {
             "id": 2,
