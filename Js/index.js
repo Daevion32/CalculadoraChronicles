@@ -20,7 +20,6 @@ fetchdata().then((data) => {
 
     bakerySection.innerHTML += `
  
-  
             <tr>
                 <td>${name}</td>
                 <td>${ingredients}</td>
@@ -30,14 +29,11 @@ fetchdata().then((data) => {
                 <td>${price}</td>
             
             </tr>
-
-      
+    
       `;
   }
     for (let index = 0; index < data.Blacksmith.length; index++) {
-      const blacksmithSection = document.getElementById("BlacksmithSection");
-  
-      
+      const blacksmithSection = document.getElementById("BlacksmithSection");      
       let name = data.Blacksmith[index].name;
       let ingredients = data.Blacksmith[index].ingredients;
       let product = data.Blacksmith[index].return;
@@ -47,22 +43,19 @@ fetchdata().then((data) => {
   
       blacksmithSection.innerHTML += `
    
-              <tr>
+            <tr>
                   <td>${name}</td>
                   <td>${ingredients}</td>
                   <td>${product}</td>
                   <td>${tool}</td>
                   <td>${profesion}</td>
                   <td>${price}</td>
-              </tr>
+            </tr>
 
-        
         `;
     }  
     for (let index = 0; index < data.Breeder.length; index++) {
       const breederSection = document.getElementById("BreederSection");
-  
-     
       let name = data.Breeder[index].name;
       let ingredients = data.Breeder[index].ingredients;
       let product = data.Breeder[index].return;
@@ -91,8 +84,6 @@ fetchdata().then((data) => {
     }  
     for (let index = 0; index < data.Carpenter.length; index++) {
       const carpenterSection = document.getElementById("CarpenterSection");
-  
-      
       let name = data.Carpenter[index].name;
       let ingredients = data.Carpenter[index].ingredients;
       let product = data.Carpenter[index].return;
@@ -122,8 +113,6 @@ fetchdata().then((data) => {
 
     for (let index = 0; index < data.Farmer.length; index++) {
       const farmerSection = document.getElementById("FarmerSection");
-  
-      
       let name = data.Farmer[index].name;
       let ingredients = data.Farmer[index].ingredients;
       let product = data.Farmer[index].return;
@@ -153,8 +142,6 @@ fetchdata().then((data) => {
 
     for (let index = 0; index < data.Herbalist.length; index++) {
       const herbalistSection = document.getElementById("HerbalistSection");
-  
-     
       let name = data.Herbalist[index].name;
       let ingredients = data.Herbalist[index].ingredients;
       let product = data.Herbalist[index].return;
@@ -184,8 +171,6 @@ fetchdata().then((data) => {
 
     for (let index = 0; index < data.Potter.length; index++) {
       const potterSection = document.getElementById("PotterSection");
-  
-    
       let name = data.Potter[index].name;
       let ingredients = data.Potter[index].ingredients;
       let product = data.Potter[index].return;
@@ -214,8 +199,6 @@ fetchdata().then((data) => {
     }  
    for (let index = 0; index < data.Tailor.length; index++) {
       const tailorSection = document.getElementById("TailorSection");
-  
-     
       let name = data.Tailor[index].name;
       let ingredients = data.Tailor[index].ingredients;
       let product = data.Tailor[index].return;
@@ -232,11 +215,28 @@ fetchdata().then((data) => {
                 <td>${product}</td>
                 <td>${tool}</td>                
                 <td>${profesion}</td>
-                <td>${profesion}</td>
+                <td>${price}</td>
             </tr>
         </div>  
         `;
     }  
+    for (let index = 0; index < data.Materials.length; index++) {
+        const materialsSection = document.getElementById("MaterialsSection");
+        let name = data.Materials[index].name;
+        let node = data.Materials[index].node;
+        let price = data.Materials[index].Price
+    
+        materialsSection.innerHTML += `
+          <div>
+              <tr>
+                  
+                  <td>${name}</td>
+                  <td>${node}</td>
+                  <td>${price}</td>
+              </tr>
+          </div>  
+          `;
+      }  
 
 })
 
