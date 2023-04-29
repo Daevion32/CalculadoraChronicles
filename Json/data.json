@@ -199,7 +199,8 @@
             "ingredients": "4 Flowers",
             "return": "",
             "Tool": "Bellow",
-            "Profesion": "Breeding I"
+            "Profesion": "Breeding I",
+            "Price":""
         },
         {
             "id": 2,
@@ -207,7 +208,8 @@
             "ingredients": "4 Hay",
             "return": " 2 Leather , 3 Manure , 1 Meat  , 1 Milk",
             "Tool": "Knife",
-            "Profesion": "Breeding I"
+            "Profesion": "Breeding I",
+            "Price":""
         },
         {
             "id": 3,
@@ -215,7 +217,8 @@
             "ingredients": "4 Hay",
             "return": "3 Manure , 5 Meat",
             "Tool": "Knife",
-            "Profesion": "Breeding I"
+            "Profesion": "Breeding I",
+            "Price":""
         },
         {
             "id": 4,
@@ -223,7 +226,8 @@
             "ingredients": "4 Hay",
             "return": "3 Manure , 1 Meat  , 1 Milk  , 2 Wool",
             "Tool": "Knife",
-            "Profesion": "Breeding I"
+            "Profesion": "Breeding I",
+            "Price":""
         }
     ],
     "Carpenter": [
@@ -233,7 +237,8 @@
             "ingredients": "1 Pile of Nails , 1 Wooden Board",
             "return": "1 Barrel",
             "Tool": "1 Saw",
-            "Profesion": "Carpenter I"
+            "Profesion": "Carpenter I",
+            "Price":""
         },
         {
             "id": 2,
@@ -241,7 +246,8 @@
             "ingredients": "1 Iron Ore , 1 Wood Piece",
             "return": "1 Knife",
             "Tool": "1 Saw",
-            "Profesion": "Carpenter I"
+            "Profesion": "Carpenter I",
+            "Price":""
         },
         {
             "id": 3,
@@ -249,7 +255,8 @@
             "ingredients": "1 Iron Ore , 1 Wood Piece",
             "return": "1 Hammer",
             "Tool": "1 Saw",
-            "Profesion": "Carpenter I"
+            "Profesion": "Carpenter I",
+            "Price":""
         },
         {
             "id": 4,
@@ -257,7 +264,8 @@
             "ingredients": "1 Iron Ore , 1 Wood Piece",
             "return": "1 Potter Tools",
             "Tool": "1 Saw",
-            "Profesion": "Carpenter I"
+            "Profesion": "Carpenter I",
+            "Price":""
         },
         {
             "id": 5,
@@ -265,7 +273,8 @@
             "ingredients": "1 Iron Ore , 1 Wood Piece",
             "return": "1 Sickle",
             "Tool": "1 Saw",
-            "Profesion": "Carpenter I"
+            "Profesion": "Carpenter I",
+            "Price":""
         },
         {
             "id": 6,
@@ -273,7 +282,8 @@
             "ingredients": "1 Iron Ore , 1 Wood Piece",
             "return": "1 Shovel",
             "Tool": "1 Saw",
-            "Profesion": "Carpenter I"
+            "Profesion": "Carpenter I",
+            "Price":""
         },
         {
             "id": 7,
@@ -281,7 +291,8 @@
             "ingredients": "1 Wood Piece",
             "return": "1 Wooden Board",
             "Tool": "1 Saw",
-            "Profesion": "Carpenter I"
+            "Profesion": "Carpenter I",
+            "Price":""
         },
         {
             "id": 8,
@@ -289,7 +300,8 @@
             "ingredients": "2 Wood Piece",
             "return": "1 Club",
             "Tool": "1 Saw",
-            "Profesion": "Carpenter II"
+            "Profesion": "Carpenter II",
+            "Price":""
         },
         {
             "id": 9,
@@ -297,7 +309,8 @@
             "ingredients": "1 Coal Piece , 1 Iron Ore , 2 Wood Piece",
             "return": "1 Pike",
             "Tool": "1 Saw",
-            "Profesion": "Carpenter II"
+            "Profesion": "Carpenter II",
+            "Price":""
         },
         {
             "id": 10,
@@ -305,7 +318,8 @@
             "ingredients": " 1 Pile of Nails , 2 Wood Piece",
             "return": "1 Wooden Shield",
             "Tool": "1 Saw",
-            "Profesion": "Carpenter II"
+            "Profesion": "Carpenter II",
+            "Price":""
         },
         {
             "id": 11,
@@ -313,7 +327,8 @@
             "ingredients": " 1 Iron Ore , 1 Pile of Nails , 2 Wood Piece",
             "return": "1 Reinforced Wooden Shield",
             "Tool": "1 Saw",
-            "Profesion": "Carpenter II"
+            "Profesion": "Carpenter II",
+            "Price":""
         }
     ],
     "Farmer": [
@@ -323,7 +338,8 @@
             "ingredients": "1 Manure",
             "return": "5 Cotton",
             "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming I"
+            "Profesion": "Farming I",
+            "Price":""
         },
         {
             "id": 2,
@@ -331,7 +347,8 @@
             "ingredients": "1 Manure",
             "return": "5 Flower",
             "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming I"
+            "Profesion": "Farming I",
+            "Price":""
         },
         {
             "id": 3,
@@ -339,7 +356,8 @@
             "ingredients": "1 Hay",
             "return": "7 Hay",
             "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming I"
+            "Profesion": "Farming I",
+            "Price":""
         },
         {
             "id": 4,
@@ -347,7 +365,8 @@
             "ingredients": "1 Manure",
             "return": "5 Hemp",
             "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming I"
+            "Profesion": "Farming I",
+            "Price":""
         },
         {
             "id": 5,
@@ -355,7 +374,8 @@
             "ingredients": "1 Manure",
             "return": "5 Hop",
             "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming I"
+            "Profesion": "Farming I",
+            "Price":""
         },
         {
             "id": 6,
@@ -371,7 +391,8 @@
             "ingredients": "1 Manure",
             "return": "5 Mulberry",
             "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming I"
+            "Profesion": "Farming I",
+            "Price":""
         },
         {
             "id": 8,
@@ -379,7 +400,8 @@
             "ingredients": "1 Manure",
             "return": "5 Wheat , 2 Hay",
             "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming I"
+            "Profesion": "Farming I",
+            "Price":""
         },
         {
             "id": 9,
@@ -387,7 +409,8 @@
             "ingredients": "1 Manure",
             "return": "5 Barley",
             "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming II"
+            "Profesion": "Farming II",
+            "Price":""
         },
         {
             "id": 10,
@@ -395,7 +418,8 @@
             "ingredients": "1 Manure",
             "return": "5 Grape",
             "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming II"
+            "Profesion": "Farming II",
+            "Price":""
         },
         {
             "id": 11,
@@ -403,7 +427,8 @@
             "ingredients": "1 Manure",
             "return": "5 Medical Plant",
             "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming II"
+            "Profesion": "Farming II",
+            "Price":""
         }
     ],
     "Herbalist": [
@@ -460,7 +485,8 @@
             "ingredients": "1 Clay Piece , 1 Coal Piece",
             "return": "1 Cooking Pot",
             "Tool": "Potter Tools",
-            "Profesion": "Pottery I"
+            "Profesion": "Pottery I",
+            "Price":""
         },
         {
             "id": 2,
@@ -468,7 +494,8 @@
             "ingredients": "1 Coal Piece , 1 Sand Heap",
             "return": "1 Distiller",
             "Tool": "Potter Tools",
-            "Profesion": "Pottery I"
+            "Profesion": "Pottery I",
+            "Price":""
         },
         {
             "id": 3,
@@ -476,7 +503,8 @@
             "ingredients": "1 Coal Piece , 1 Sand Heap",
             "return": "1 Glass Bottle",
             "Tool": "Potter Tools",
-            "Profesion": "Pottery I"
+            "Profesion": "Pottery I",
+            "Price":""
         },
         {
             "id": 4,
@@ -484,7 +512,8 @@
             "ingredients": "1 Coal Piece , 1 Sand Piece",
             "return": "1 Glass Bulb",
             "Tool": "Potter Tools",
-            "Profesion": "Pottery I"
+            "Profesion": "Pottery I",
+            "Price":""
         },
         {
             "id": 5,
@@ -492,7 +521,8 @@
             "ingredients": "2 Coal Piece , 2 Sand Piece",
             "return": "1 Glass Panel",
             "Tool": "Potter Tools",
-            "Profesion": "Pottery I"
+            "Profesion": "Pottery I",
+            "Price":""
         },
         {
             "id": 6,
@@ -500,7 +530,8 @@
             "ingredients": "1 Clay Piece , 1 Coal Piece",
             "return": "1 Mortar and Pestle",
             "Tool": "Potter Tools",
-            "Profesion": "Pottery I"
+            "Profesion": "Pottery I",
+            "Price":""
         },
         {
             "id": 7,
@@ -508,7 +539,8 @@
             "ingredients": "1 Clay Piece , 1 Coal Piece",
             "return": "1 Pottery",
             "Tool": "Potter Tools",
-            "Profesion": "Pottery I"
+            "Profesion": "Pottery I",
+            "Price":""
         }
     ],
     "Tailor": [
