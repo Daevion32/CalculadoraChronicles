@@ -383,7 +383,8 @@
             "ingredients": "1 Manure",
             "return": "5 Linen",
             "Tool": "2 Hoe , 1 Sickle",
-            "Profesion": "Farming I"
+            "Profesion": "Farming I",
+            "Price":""
         },
         {
             "id": 7,
@@ -559,7 +560,8 @@
             "ingredients": "3 Hemp",
             "return": "1 Fishing Net",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring I"
+            "Profesion": "Tailoring I",
+            "Price":""
         },
         {
             "id": 3,
@@ -567,7 +569,8 @@
             "ingredients": "2 Linen",
             "return": "1 Linen Shirt",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring I"
+            "Profesion": "Tailoring I",
+            "Price":""
         },
         {
             "id": 4,
@@ -575,7 +578,8 @@
             "ingredients": "2 Linen",
             "return": "1 Linen Trousers",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring I"
+            "Profesion": "Tailoring I",
+            "Price":""
         },
         {
             "id": 5,
@@ -583,7 +587,8 @@
             "ingredients": "1 Leather",
             "return": "1 Shoes",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring I"
+            "Profesion": "Tailoring I",
+            "Price":""
         },
         {
             "id": 6,
@@ -591,7 +596,8 @@
             "ingredients": "1 Wool",
             "return": "1 Wool Hat",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring I"
+            "Profesion": "Tailoring I",
+            "Price":""
         },
         {
             "id": 7,
@@ -599,7 +605,8 @@
             "ingredients": "1 Wool",
             "return": "1 Woo Gloves",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring I"
+            "Profesion": "Tailoring I",
+            "Price":""
         },
         {
             "id": 8,
@@ -607,7 +614,8 @@
             "ingredients": "2 Wool",
             "return": "1 Wool Shirt",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring I"
+            "Profesion": "Tailoring I",
+            "Price":""
         },
         {
             "id": 9,
@@ -615,7 +623,8 @@
             "ingredients": "2 Wool",
             "return": "1 Wool Trousers",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring I"
+            "Profesion": "Tailoring I",
+            "Price":""
         },
         {
             "id": 10,
@@ -623,7 +632,8 @@
             "ingredients": "1 Leather",
             "return": "Boots",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring II"
+            "Profesion": "Tailoring II",
+            "Price":""
         },
         {
             "id": 11,
@@ -631,7 +641,8 @@
             "ingredients": "2 Leather",
             "return": "1 Leather Armor",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring II"
+            "Profesion": "Tailoring II",
+            "Price":""
         },
         {
             "id": 12,
@@ -639,7 +650,8 @@
             "ingredients": "2 Leather",
             "return": "1 Leather Helmet",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring II"
+            "Profesion": "Tailoring II",
+            "Price":""
         },
         {
             "id": 13,
@@ -647,7 +659,8 @@
             "ingredients": "2 Leather",
             "return": "1 Leather Legs Armor",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring II"
+            "Profesion": "Tailoring II",
+            "Price":""
         },
         {
             "id": 14,
@@ -655,7 +668,8 @@
             "ingredients": "1 Iron Piece , 2 Leather",
             "return": "1 Reinforcered Leather Armor",
             "Tool": "1 Scissors",
-            "Profesion": "Tailoring II"
+            "Profesion": "Tailoring II",
+            "Price":""
         }
     ],
     "Materials":[
