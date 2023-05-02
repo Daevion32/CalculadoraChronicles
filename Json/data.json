@@ -1,7 +1,7 @@
 {
     "BasePrice":[
         {
-            "Base":1.5,
+            "Base":1,
             "KingTaxes":1,
             "CityTaxes":1,
             "NodeMovement":15
@@ -12,6 +12,46 @@
         {   
             "Name": "Leon",
             "Nodes":3
+        },
+        {   
+            "Name": "Cordova",
+            "Nodes":2
+        },
+        {   
+            "Name": "Seville",
+            "Nodes":3
+        },
+        {   
+            "Name": "Lisbon",
+            "Nodes":3
+        },
+        {   
+            "Name": "Oporto",
+            "Nodes":5
+        },
+        {   
+            "Name": "Toledo",
+            "Nodes":0
+        },
+        {   
+            "Name": "Ceuta",
+            "Nodes":5
+        },
+        {   
+            "Name": "Granada",
+            "Nodes":4
+        },
+        {   
+            "Name": "Valencia",
+            "Nodes":3
+        }, 
+        {   
+            "Name": "Zaragoza",
+            "Nodes":3
+        },
+        {   
+            "Name": "Barcelona",
+            "Nodes":5
         }
     ],
     "Bakery": [
