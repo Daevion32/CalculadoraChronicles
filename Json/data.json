@@ -10,47 +10,47 @@
     ],
     "Cities":[
         {   
-            "Name": "Leon",
+            "City": "Leon",
             "Nodes":3
         },
         {   
-            "Name": "Cordova",
+            "City": "Cordova",
             "Nodes":2
         },
         {   
-            "Name": "Seville",
+            "City": "Seville",
             "Nodes":3
         },
         {   
-            "Name": "Lisbon",
+            "City": "Lisbon",
             "Nodes":3
         },
         {   
-            "Name": "Oporto",
+            "City": "Oporto",
             "Nodes":5
         },
         {   
-            "Name": "Toledo",
+            "City": "Toledo",
             "Nodes":0
         },
         {   
-            "Name": "Ceuta",
+            "City": "Ceuta",
             "Nodes":5
         },
         {   
-            "Name": "Granada",
+            "City": "Granada",
             "Nodes":4
         },
         {   
-            "Name": "Valencia",
+            "City": "Valencia",
             "Nodes":3
         }, 
         {   
-            "Name": "Zaragoza",
+            "City": "Zaragoza",
             "Nodes":3
         },
         {   
-            "Name": "Barcelona",
+            "City": "Barcelona",
             "Nodes":5
         }
     ],

@@ -2,6 +2,8 @@ const requestUrl = "./json/data.json";
 let base = 0
 let KingTax = 0
 let CityTax = 0
+let City ; 
+let Nodes ;
 let Taxes = 0
 let NodeMove = 0
 async function fetchdata() {
@@ -16,6 +18,15 @@ function finalPrice(Price){
 }
 
 fetchdata().then((data) => {
+
+    for (let index = 0; index < data.Cities.length; index++) {
+        City = data.Cities[index].City;
+        Nodes = data.Cities[index].Nodes;
+       
+       
+        console.log(City , Nodes)
+      
+    } 
     for (let index = 0; index < data.BasePrice.length; index++) {
         base = data.BasePrice[index].Base;
         KingTax = data.BasePrice[index].KingTaxes;
