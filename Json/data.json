@@ -1,18 +1,33 @@
 {
+    "BasePrice":[
+        {
+            "Base":1.5,
+            "KingTaxes":1,
+            "CityTaxes":1,
+            "NodeMovement":15
+            
+        }
+    ],
+    "Cities":[
+        {   
+            "Name": "Leon",
+            "Nodes":3
+        }
+    ],
     "Bakery": [
         {
             "id": 1,
             "name": "Bread",
-            "ingredients": ["1 Wheat"],
+            "ingredients": "1 Wheat",
             "return": "1 Bread",
             "Tool": "1 Cooking Pot",
             "Profesion": "Cooking I",
-            "Price": ""
+            "Price": 1
         },
         {
             "id": 2,
             "name": "Cheese",
-            "ingredients": ["1 Milk" , "1 Salt"],
+            "ingredients": "1 Milk , 1 Salt",
             "return": "1 Cheese",
             "Tool": "1 Cooking Pot",
             "Profesion": "Cooking I",

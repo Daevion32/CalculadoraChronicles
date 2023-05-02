@@ -1,5 +1,9 @@
 const requestUrl = "./json/data.json";
-
+let base = 0
+let KingTax = 0
+let CityTax = 0
+let Taxes = 0
+let NodeMove = 0
 async function fetchdata() {
   const response = await fetch(requestUrl);
   const data = await response.json();
@@ -7,8 +11,21 @@ async function fetchdata() {
   return data;
 
 }
+function finalPrice(Price){
+    return Price*base*(1+(Taxes/100)+(NodeMove/100))
+}
 
 fetchdata().then((data) => {
+    for (let index = 0; index < data.BasePrice.length; index++) {
+        base = data.BasePrice[index].Base;
+        KingTax = data.BasePrice[index].KingTaxes;
+        CityTax = data.BasePrice[index].CityTaxes;
+       
+        Taxes = KingTax + CityTax
+      
+    }   
+
+
   for (let index = 0; index < data.Bakery.length; index++) {
     const bakerySection = document.getElementById("BakerySection");
     let name = data.Bakery[index].name;
@@ -16,8 +33,7 @@ fetchdata().then((data) => {
     let product = data.Bakery[index].return;
     let tool = data.Bakery[index].Tool;
     let profesion = data.Bakery[index].Profesion;
-    let price = data.Bakery[index].Price
-
+    let price = finalPrice(data.Bakery[index].Price)
     bakerySection.innerHTML += `
  
             <tr>
@@ -39,7 +55,7 @@ fetchdata().then((data) => {
       let product = data.Blacksmith[index].return;
       let tool = data.Blacksmith[index].Tool;
       let profesion = data.Blacksmith[index].Profesion;
-      let price = data.Blacksmith[index].Price
+      let price =finalPrice(data.Blacksmith[index].Price)
   
       blacksmithSection.innerHTML += `
    
@@ -61,7 +77,7 @@ fetchdata().then((data) => {
       let product = data.Breeder[index].return;
       let tool = data.Breeder[index].Tool;
       let profesion = data.Breeder[index].Profesion;
-      let price = data.Breeder[index].Price
+      let price = finalPrice(data.Breeder[index].Price)
   
       breederSection.innerHTML += `
    
@@ -89,7 +105,7 @@ fetchdata().then((data) => {
       let product = data.Carpenter[index].return;
       let tool = data.Carpenter[index].Tool;
       let profesion = data.Carpenter[index].Profesion;
-      let price = data.Carpenter[index].Price
+      let price = finalPrice(data.Carpenter[index].Price)
   
       carpenterSection.innerHTML += `
    
@@ -118,7 +134,7 @@ fetchdata().then((data) => {
       let product = data.Farmer[index].return;
       let tool = data.Farmer[index].Tool;
       let profesion = data.Farmer[index].Profesion;
-      let price = data.Farmer[index].Price
+      let price = finalPrice(data.Farmer[index].Price)
   
       farmerSection.innerHTML += `
    
@@ -147,7 +163,7 @@ fetchdata().then((data) => {
       let product = data.Herbalist[index].return;
       let tool = data.Herbalist[index].Tool;
       let profesion = data.Herbalist[index].Profesion;
-      let price = data.Herbalist[index].Price
+      let price = finalPrice(data.Herbalist[index].Price)
   
       herbalistSection.innerHTML += `
    
@@ -176,7 +192,7 @@ fetchdata().then((data) => {
       let product = data.Potter[index].return;
       let tool = data.Potter[index].Tool;
       let profesion = data.Potter[index].Profesion;
-      let price = data.Potter[index].Price
+      let price = finalPrice(data.Potter[index].Price)
   
       potterSection.innerHTML += `
    
@@ -204,7 +220,7 @@ fetchdata().then((data) => {
       let product = data.Tailor[index].return;
       let tool = data.Tailor[index].Tool;
       let profesion = data.Tailor[index].Profesion;
-      let price = data.Tailor[index].Price
+      let price = finalPrice(data.Tailor[index].Price)
   
       tailorSection.innerHTML += `
         <div>
@@ -224,7 +240,7 @@ fetchdata().then((data) => {
         const materialsSection = document.getElementById("MaterialsSection");
         let name = data.Materials[index].name;
         let node = data.Materials[index].node;
-        let price = data.Materials[index].Price
+        let price = finalPrice(data.Materials[index].Price)
     
         materialsSection.innerHTML += `
           <div>
@@ -238,6 +254,6 @@ fetchdata().then((data) => {
           `;
       }  
 
-})
-
+}
+)
 
