@@ -2,8 +2,8 @@
     "BasePrice":[
         {
             "Base":1,
-            "KingTaxes":1,
-            "CityTaxes":1,
+            "KingTaxes":0,
+            "CityTaxes":0,
             "NodeMovement":15
             
         }
@@ -767,7 +767,7 @@
             "id":6,
             "name": "Iron",
             "node":"Toledo",
-            "Price":""
+            "Price": ""
             
         },
         {

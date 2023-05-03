@@ -2,10 +2,19 @@ const requestUrl = "./json/data.json";
 let base = 0
 let KingTax = 0
 let CityTax = 0
-let City ; 
-let Nodes ;
-let Taxes = 0
-let NodeMove = 0
+let City = ""; 
+let Nodes = 0;
+let Taxes = 0 ;
+let NodeMovement = 0 ;
+
+let gold = 5 ;
+let energy = 56 ;
+let glut = 20 ;
+let goldEnergy = (energy / gold);
+let energyGlut = (energy / glut);
+
+
+
 async function fetchdata() {
   const response = await fetch(requestUrl);
   const data = await response.json();
@@ -13,24 +22,33 @@ async function fetchdata() {
   return data;
 
 }
-function finalPrice(Price){
-    return Price*base*(1+(Taxes/100)+(NodeMove/100))
+
+
+
+
+function nodeMove(Nodes){
+    return  Nodes*(2*(NodeMovement/100))
 }
+
+function finalPrice(Price){
+    return Price*base*(1+(Taxes/100)+(nodeMove(Nodes)))  
+}   
+
 
 fetchdata().then((data) => {
 
     for (let index = 0; index < data.Cities.length; index++) {
+
         City = data.Cities[index].City;
         Nodes = data.Cities[index].Nodes;
-       
-       
-        console.log(City , Nodes)
-      
+
+
     } 
     for (let index = 0; index < data.BasePrice.length; index++) {
         base = data.BasePrice[index].Base;
         KingTax = data.BasePrice[index].KingTaxes;
         CityTax = data.BasePrice[index].CityTaxes;
+        NodeMovement = data.BasePrice[index].NodeMovement;
        
         Taxes = KingTax + CityTax
       
@@ -45,6 +63,7 @@ fetchdata().then((data) => {
     let tool = data.Bakery[index].Tool;
     let profesion = data.Bakery[index].Profesion;
     let price = finalPrice(data.Bakery[index].Price)
+   
     bakerySection.innerHTML += `
  
             <tr>
