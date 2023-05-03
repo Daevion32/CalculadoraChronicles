@@ -1,6 +1,7 @@
 const requestUrl = "./json/data.json";
 
 //Precios Base e Impuestos
+
 let base = 0
 let KingTax = 0
 let CityTax = 0
@@ -11,11 +12,38 @@ let NodeMovement = 0 ;
 
 
 //Goberment
-let gold = 5 ;
-let energy = 56 ;
-let glut = 20 ;
+
+let gold = 5;
+let energy = 56;
+let glut = 20;
 let goldEnergy = (energy / gold);
-let energyGlut = (energy / glut);
+let glutEnergy = (energy / glut);
+
+
+//WorkEnergy
+const WorkEnergy = new Map ([
+
+  ["Cooker", 12 ],
+  ["Blacksmith" , 12],
+  ["Breeder" , 48],
+  ["Carpenter" , 12],
+  ["Farmer" , 72],
+  ["Herbalist" , 12],
+  ["Potter" , 12],
+  ["Tailor" , 12],
+  ["Collector" , 24],
+
+]);
+
+
+cookerEnergy = (WorkEnergy.get("Cooker") / goldEnergy);
+blacksmithEnergy = (WorkEnergy.get("Blacksmith") / goldEnergy);
+breederEnergy = (WorkEnergy.get("Breeder") / goldEnergy);
+carpenterEnergy = (WorkEnergy.get("Carpenter") / goldEnergy);
+farmerEnergy = (WorkEnergy.get("Farmer") / goldEnergy);
+herbalistEnergy = (WorkEnergy.get("Herbalist") / goldEnergy);
+potterEnergy = (WorkEnergy.get("Potter") / goldEnergy);
+tailorEnergy = (WorkEnergy.get("Tailor") / goldEnergy);
 
 
 
@@ -27,30 +55,25 @@ async function fetchdata() {
 
 }
 
-function nodeMove(Nodes){
-    return  Nodes*(2*(NodeMovement/100))
-}
-
 function finalPrice(Price){
-    return Price*base*(1+(Taxes/100)+(nodeMove(Nodes)))  
+    energyPrice = cookerEnergy
+    nodeMove = (Nodes * NodeMovement)/100
+    return Price*base*(1+(Taxes/100)+(nodeMove)+(cookerEnergy))  
+
 }   
 
-
+const cities = new Map()
 
 fetchdata().then((data) => {
 
     for (let index = 0; index < data.Cities.length; index++) {
         const citiesSection = document.getElementById("CitiesSection");
-        City = data.Cities[index].City;
-        Nodes = data.Cities[index].Nodes;
-
+        cities.set(data.Cities[index].City , data.Cities[index].Nodes)
         citiesSection.innerHTML +=`
         
-        <option value="${City}">${City}</option>
+        <option value="${data.Cities[index].City}">${data.Cities[index].City}</option>
 
         `
-
-
     } 
     for (let index = 0; index < data.BasePrice.length; index++) {
         base = data.BasePrice[index].Base;
@@ -293,5 +316,7 @@ fetchdata().then((data) => {
       }  
 
 }
+
+
 )
 

@@ -71,7 +71,7 @@
             "return": "1 Cheese",
             "Tool": "1 Cooking Pot",
             "Profesion": "Cooking I",
-            "Price": ""
+            "Price": 0
         },
         {
             "id": 3,
@@ -80,7 +80,7 @@
             "return": "1 Fish Soup",
             "Tool": "1 Cooking Pot",
             "Profesion": "Cooking I",
-            "Price": ""
+            "Price": 0
         },
         {
             "id": 4,
@@ -89,7 +89,7 @@
             "return": "1 Meat Soup",
             "Tool": "1 Cooking Pot",
             "Profesion": "Cooking I",
-            "Price": ""
+            "Price": 0
         },
         {
             "id": 5,
@@ -98,7 +98,7 @@
             "return": "1 Complete Fish Meal",
             "Tool": "1 Cooking Pot",
             "Profesion": "Cooking II",
-            "Price": ""
+            "Price": 0
         },
         {
             "id": 6,
@@ -107,7 +107,7 @@
             "return": "1 Complete Meat Meal",
             "Tool": "1 Cooking Pot",
             "Profesion": "Cooking II",
-            "Price": ""
+            "Price": 0
         }
     ],
     "Blacksmith": [
