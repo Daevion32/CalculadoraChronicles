@@ -1,4 +1,6 @@
 const requestUrl = "./json/data.json";
+
+//Precios Base e Impuestos
 let base = 0
 let KingTax = 0
 let CityTax = 0
@@ -7,6 +9,8 @@ let Nodes = 0;
 let Taxes = 0 ;
 let NodeMovement = 0 ;
 
+
+//Goberment
 let gold = 5 ;
 let energy = 56 ;
 let glut = 20 ;
@@ -23,9 +27,6 @@ async function fetchdata() {
 
 }
 
-
-
-
 function nodeMove(Nodes){
     return  Nodes*(2*(NodeMovement/100))
 }
@@ -35,12 +36,19 @@ function finalPrice(Price){
 }   
 
 
+
 fetchdata().then((data) => {
 
     for (let index = 0; index < data.Cities.length; index++) {
-
+        const citiesSection = document.getElementById("CitiesSection");
         City = data.Cities[index].City;
         Nodes = data.Cities[index].Nodes;
+
+        citiesSection.innerHTML +=`
+        
+        <option value="${City}">${City}</option>
+
+        `
 
 
     } 

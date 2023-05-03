@@ -10,8 +10,8 @@
     ],
     "Cities":[
         {   
-            "City": "Leon",
-            "Nodes":3
+            "City": "Toledo",
+            "Nodes":0
         },
         {   
             "City": "Cordova",
@@ -30,8 +30,8 @@
             "Nodes":5
         },
         {   
-            "City": "Toledo",
-            "Nodes":0
+            "City": "León",
+            "Nodes":3
         },
         {   
             "City": "Ceuta",
