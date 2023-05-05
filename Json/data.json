@@ -54,7 +54,7 @@
             "Nodes":5
         }
     ],
-    "Bakery": [
+    "Bakery":[
         {
             "id": 1,
             "name": "Bread",
@@ -110,7 +110,7 @@
             "Price": 0
         }
     ],
-    "Blacksmith": [
+    "Blacksmith":[
         {
             "id": 1,
             "name": "Hatchet",
@@ -247,7 +247,7 @@
             "Price": ""
         }
     ],
-    "Breeder": [
+    "Breeder":[
         {
             "id": 1,
             "name": "Bees",
@@ -285,7 +285,7 @@
             "Price":""
         }
     ],
-    "Carpenter": [
+    "Carpenter":[
         {
             "id": 6,
             "name": "Barrel",
@@ -386,7 +386,7 @@
             "Price":""
         }
     ],
-    "Farmer": [
+    "Farmer":[
         {
             "id": 1,
             "name": "Cotton",
@@ -487,7 +487,7 @@
             "Price":""
         }
     ],
-    "Herbalist": [
+    "Herbalist":[
         {
             "id": 1,
             "name": "Ink Bulb",
@@ -534,7 +534,7 @@
             "Price": ""
         }
     ],
-    "Potter": [
+    "Potter":[
         {
             "id": 1,
             "name": "Cooking Pot",
@@ -599,7 +599,7 @@
             "Price":""
         }
     ],
-    "Tailor": [
+    "Tailor":[
         {
             "id": 1,
             "name": "Bellow",
@@ -732,6 +732,7 @@
             "id":1,
             "name":"Bees",
             "node":"Leon",
+            "return":"" , 
             "Price":""
             
         },
@@ -739,6 +740,7 @@
             "id":2,
             "name":"Clay",
             "node":"Leon",
+            "return":"3 Clay Pieces",
             "Price":""
             
         },
@@ -746,6 +748,7 @@
             "id":3,
             "name":"Coal",
             "node":"Seville",
+            "return":"3 Coal Pieces",
             "Price":""
             
         },
@@ -753,6 +756,7 @@
             "id":4,
             "name":"Cow",
             "node":"Cordova",
+            "return":"",
             "Price":""
             
         },
@@ -760,6 +764,7 @@
             "id":5,
             "name": "Fish",
             "node":"Ceuta",
+            "return":"",
             "Price":""
             
         },        
@@ -767,6 +772,7 @@
             "id":6,
             "name": "Iron",
             "node":"Toledo",
+            "return":"3 Iron Pieces",
             "Price": ""
             
         },
@@ -774,6 +780,7 @@
             "id":7,
             "name": "Pig",
             "node":"Toledo",
+            "return":"",
             "Price":""
             
         },
@@ -781,6 +788,7 @@
             "id":8,
             "name": "Sand",
             "node":"Oporto",
+            "return":"",
             "Price":""
             
         },
@@ -788,6 +796,7 @@
             "id":9,
             "name": "Sheep",
             "node":"Seville",
+            "return":"",
             "Price":""
             
         },
@@ -795,6 +804,7 @@
             "id":10,
             "name": "Stone",
             "node":"Cordova",
+            "return":"3 Stone Pieces",
             "Price":""
             
         },
@@ -802,6 +812,7 @@
             "id":11,
             "name": "Wood",
             "node":"Lisbon",
+            "return":"3 Wood Pieces",
             "Price":""
             
         }

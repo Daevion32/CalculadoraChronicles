@@ -20,7 +20,8 @@ let goldEnergy = (energy / gold);
 let glutEnergy = (energy / glut);
 
 
-//WorkEnergy
+//WorkEnergy y oro ganado por trabajo
+
 const WorkEnergy = new Map ([
 
   ["Cooker", 12 ],
@@ -35,8 +36,7 @@ const WorkEnergy = new Map ([
 
 ]);
 
-
-cookerEnergy = (WorkEnergy.get("Cooker") / goldEnergy);
+cookerEnergy = (WorkEnergy.get("Cooker") / goldEnergy); 
 blacksmithEnergy = (WorkEnergy.get("Blacksmith") / goldEnergy);
 breederEnergy = (WorkEnergy.get("Breeder") / goldEnergy);
 carpenterEnergy = (WorkEnergy.get("Carpenter") / goldEnergy);
@@ -47,20 +47,22 @@ tailorEnergy = (WorkEnergy.get("Tailor") / goldEnergy);
 
 
 
+
 async function fetchdata() {
   const response = await fetch(requestUrl);
   const data = await response.json();
-
   return data;
 
 }
 
 function finalPrice(Price){
-    energyPrice = cookerEnergy
-    nodeMove = (Nodes * NodeMovement)/100
+  
+    
+    nodeMove = (Nodes * NodeMovement)/100;
     return Price*base*(1+(Taxes/100)+(nodeMove)+(cookerEnergy))  
 
 }   
+
 
 const cities = new Map()
 
@@ -301,6 +303,7 @@ fetchdata().then((data) => {
         const materialsSection = document.getElementById("MaterialsSection");
         let name = data.Materials[index].name;
         let node = data.Materials[index].node;
+        let product = data.Materials[index].return;
         let price = finalPrice(data.Materials[index].Price)
     
         materialsSection.innerHTML += `
@@ -309,6 +312,7 @@ fetchdata().then((data) => {
                   
                   <td>${name}</td>
                   <td>${node}</td>
+                  <td>${product}</td>
                   <td>${price}</td>
               </tr>
           </div>  
