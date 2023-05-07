@@ -25,6 +25,7 @@ const WorkEnergy = new Map([
   ["Blacksmith", 12],
   ["Breeder", 48],
   ["Carpenter", 12],
+  ["Destiller", 12],
   ["Farmer", 72],
   ["Herbalist", 12],
   ["Potter", 12],
@@ -164,7 +165,29 @@ fetchdata().then((data) => {
     
     `;
   }
+  for (let index = 0; index < data.Destiller.length; index++) {
+    const destillerSection = document.getElementById("DistillerSection");
+    let name = data.Destiller[index].name;
+    let ingredients = data.Destiller[index].ingredients;
+    let product = data.Destiller[index].return;
+    let tool = data.Destiller[index].Tool;
+    let profesion = data.Destiller[index].Profesion;
+    let price = finalPrice(data.Destiller[index].Price);
 
+    destillerSection.innerHTML += `
+   
+        <tr>
+                <td>${name}</td>
+                <td>${ingredients}</td>
+                <td>${product}</td>
+                <td>${tool}</td>                  
+                <td>${profesion}</td>
+                <td>${price}</td>
+        </tr>
+
+    
+    `;
+  }
   for (let index = 0; index < data.Farmer.length; index++) {
     const farmerSection = document.getElementById("FarmerSection");
     let name = data.Farmer[index].name;
