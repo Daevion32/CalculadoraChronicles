@@ -38,6 +38,7 @@ cookerEnergy = WorkEnergy.get("Cooker") / goldEnergy;
 blacksmithEnergy = WorkEnergy.get("Blacksmith") / goldEnergy;
 breederEnergy = WorkEnergy.get("Breeder") / goldEnergy;
 carpenterEnergy = WorkEnergy.get("Carpenter") / goldEnergy;
+destillerEnergy = WorkEnergy.get("Destiller") / goldEnergy;
 farmerEnergy = WorkEnergy.get("Farmer") / goldEnergy;
 herbalistEnergy = WorkEnergy.get("Herbalist") / goldEnergy;
 potterEnergy = WorkEnergy.get("Potter") / goldEnergy;
@@ -51,7 +52,7 @@ async function fetchdata() {
 
 function finalPrice(Price) {
   nodeMove = (Nodes * NodeMovement) / 100;
-  return Price * base * (1 + Taxes / 100 + nodeMove + cookerEnergy);
+  return Price * base * (1 + Taxes / 100 + nodeMove);
 }
 
 const cities = new Map();
@@ -60,12 +61,16 @@ fetchdata().then((data) => {
   for (let index = 0; index < data.Cities.length; index++) {
     const citiesSection = document.getElementById("CitiesSection");
     cities.set(data.Cities[index].City, data.Cities[index].Nodes);
+
     citiesSection.innerHTML += `
         
         <option value="${data.Cities[index].City}">${data.Cities[index].City}</option>
 
         `;
+       
+
   }
+
   for (let index = 0; index < data.BasePrice.length; index++) {
     base = data.BasePrice[index].Base;
     KingTax = data.BasePrice[index].KingTaxes;
@@ -82,22 +87,26 @@ fetchdata().then((data) => {
     let product = data.Bakery[index].return;
     let tool = data.Bakery[index].Tool;
     let profesion = data.Bakery[index].Profesion;
-    let price = finalPrice(data.Bakery[index].Price);
-
+    let price = finalPrice((data.Bakery[index].Price)+cookerEnergy);
+    
     bakerySection.innerHTML += `
  
-        <tr>
-            <td>${name}</td>
-            <td>${ingredients}</td>
-            <td>${product}</td>
-            <td>${tool}</td>
-            <td>${profesion}</td>
-            <td>${price}</td>
-        
-        </tr>
+      <tr>
+          <td>${name}</td>
+          <td>${ingredients}</td>
+          <td>${product}</td>
+          <td>${tool}</td>
+          <td>${profesion}</td>
+          <td>${price}</td>
+      
+      </tr>
 
-    `;
+  `;
+   
+
+
   }
+   
   for (let index = 0; index < data.Blacksmith.length; index++) {
     const blacksmithSection = document.getElementById("BlacksmithSection");
     let name = data.Blacksmith[index].name;
@@ -105,7 +114,7 @@ fetchdata().then((data) => {
     let product = data.Blacksmith[index].return;
     let tool = data.Blacksmith[index].Tool;
     let profesion = data.Blacksmith[index].Profesion;
-    let price = finalPrice(data.Blacksmith[index].Price);
+    let price = finalPrice((data.Blacksmith[index].Price)+blacksmithEnergy);
 
     blacksmithSection.innerHTML += `
    
@@ -127,7 +136,7 @@ fetchdata().then((data) => {
     let product = data.Breeder[index].return;
     let tool = data.Breeder[index].Tool;
     let profesion = data.Breeder[index].Profesion;
-    let price = finalPrice(data.Breeder[index].Price);
+    let price = finalPrice((data.Breeder[index].Price)+breederEnergy);
 
     breederSection.innerHTML += `
    
@@ -147,16 +156,17 @@ fetchdata().then((data) => {
     const carpenterSection = document.getElementById("CarpenterSection");
     let name = data.Carpenter[index].name;
     let ingredients = data.Carpenter[index].ingredients;
+    
     let product = data.Carpenter[index].return;
     let tool = data.Carpenter[index].Tool;
     let profesion = data.Carpenter[index].Profesion;
-    let price = finalPrice(data.Carpenter[index].Price);
+    let price = finalPrice((data.Carpenter[index].Price)+carpenterEnergy);
 
     carpenterSection.innerHTML += `
    
         <tr>
                 <td>${name}</td>
-                <td>${ingredients}</td>
+                <td>${ingredients.name} </td>
                 <td>${product}</td>
                 <td>${tool}</td>                  
                 <td>${profesion}</td>
@@ -173,7 +183,7 @@ fetchdata().then((data) => {
     let product = data.Destiller[index].return;
     let tool = data.Destiller[index].Tool;
     let profesion = data.Destiller[index].Profesion;
-    let price = finalPrice(data.Destiller[index].Price);
+    let price = finalPrice((data.Destiller[index].Price)+destillerEnergy);
 
     destillerSection.innerHTML += `
    
@@ -196,7 +206,7 @@ fetchdata().then((data) => {
     let product = data.Farmer[index].return;
     let tool = data.Farmer[index].Tool;
     let profesion = data.Farmer[index].Profesion;
-    let price = finalPrice(data.Farmer[index].Price);
+    let price = finalPrice((data.Farmer[index].Price)+farmerEnergy);
 
     farmerSection.innerHTML += `
    
@@ -221,7 +231,7 @@ fetchdata().then((data) => {
     let product = data.Herbalist[index].return;
     let tool = data.Herbalist[index].Tool;
     let profesion = data.Herbalist[index].Profesion;
-    let price = finalPrice(data.Herbalist[index].Price);
+    let price = finalPrice((data.Herbalist[index].Price)+herbalistEnergy);
 
     herbalistSection.innerHTML += `
    
@@ -245,7 +255,7 @@ fetchdata().then((data) => {
     let product = data.Potter[index].return;
     let tool = data.Potter[index].Tool;
     let profesion = data.Potter[index].Profesion;
-    let price = finalPrice(data.Potter[index].Price);
+    let price = finalPrice((data.Potter[index].Price)+potterEnergy);
 
     potterSection.innerHTML += `
    
@@ -268,7 +278,7 @@ fetchdata().then((data) => {
     let product = data.Tailor[index].return;
     let tool = data.Tailor[index].Tool;
     let profesion = data.Tailor[index].Profesion;
-    let price = finalPrice(data.Tailor[index].Price);
+    let price = finalPrice((data.Tailor[index].Price)+tailorEnergy);
 
     tailorSection.innerHTML += `
 
