@@ -32,6 +32,7 @@ const WorkEnergy = new Map([
   ["Tailor", 12],
   ["Collector", 24],
 ]);
+  
 
 cookerEnergy = WorkEnergy.get("Cooker") / goldEnergy;
 blacksmithEnergy = WorkEnergy.get("Blacksmith") / goldEnergy;
