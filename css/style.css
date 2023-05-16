@@ -34,10 +34,11 @@ main{
 .SectionButtons{
     display: flex;
     flex-direction: row;
+    width: 100%;
     margin-top: 12px;
     margin-bottom: 50px;
     margin-right: 50px;
-    gap: 20px;
+    gap: 10px;
     justify-content: flex-end;
 }
 .Home{
@@ -86,7 +87,9 @@ main{
   box-shadow: 0 0 15px #d35400;
   text-shadow: 0 0 15px #d35400;
 }
-
+select{
+  margin-right: 40px;
+}
 table {
     width: 100%;
     border-collapse: collapse;
