@@ -53,10 +53,7 @@ async function fetchdata() {
   catch{
     console.log("No esta leyendo el Json , revisa el codigo cenutrio");
   }
-  finally{
-    console.log("Todo correcto puede usted seguir programando");
-  }
- 
+
 }
 
 function finalPrice(Price) {
@@ -67,6 +64,7 @@ function finalPrice(Price) {
 const cities = new Map();
 
 fetchdata().then((data) => {
+  
   for (let index = 0; index < data.Cities.length; index++) {
     const citiesSection = document.getElementById("CitiesSection");
     cities.set(data.Cities[index].City, data.Cities[index].Nodes);
@@ -76,7 +74,7 @@ fetchdata().then((data) => {
         <option value="${data.Cities[index].City}">${data.Cities[index].City}</option>
 
         `;
-       
+        
 
   }
 
@@ -99,7 +97,7 @@ fetchdata().then((data) => {
     let price = finalPrice((data.Bakery[index].Price)+cookerEnergy);
     
     bakerySection.innerHTML += `
- 
+    
       <tr>
           <td>${name}</td>
           <td>${ingredients}</td>
@@ -110,12 +108,9 @@ fetchdata().then((data) => {
       
       </tr>
 
-  `;
-   
-
-
+    `;
   }
-   
+    
   for (let index = 0; index < data.Blacksmith.length; index++) {
     const blacksmithSection = document.getElementById("BlacksmithSection");
     let name = data.Blacksmith[index].name;
@@ -126,7 +121,7 @@ fetchdata().then((data) => {
     let price = finalPrice((data.Blacksmith[index].Price)+blacksmithEnergy);
 
     blacksmithSection.innerHTML += `
-   
+    
         <tr>
                 <td>${name}</td>
                 <td>${ingredients}</td>
@@ -148,7 +143,7 @@ fetchdata().then((data) => {
     let price = finalPrice((data.Breeder[index].Price)+breederEnergy);
 
     breederSection.innerHTML += `
-   
+    
         <tr>
                 <td>${name}</td>
                 <td>${ingredients}</td>
@@ -171,7 +166,7 @@ fetchdata().then((data) => {
     let price = finalPrice((data.Carpenter[index].Price)+carpenterEnergy);
 
     carpenterSection.innerHTML += `
-   
+    
         <tr>
                 <td>${name}</td>
                 <td>${ingredients} </td>
@@ -194,7 +189,7 @@ fetchdata().then((data) => {
     let price = finalPrice((data.Destiller[index].Price)+destillerEnergy);
 
     destillerSection.innerHTML += `
-   
+    
         <tr>
                 <td>${name}</td>
                 <td>${ingredients}</td>
@@ -217,7 +212,7 @@ fetchdata().then((data) => {
     let price = finalPrice((data.Farmer[index].Price)+farmerEnergy);
 
     farmerSection.innerHTML += `
-   
+    
 
         <tr>
             <td>${name}</td>
@@ -242,7 +237,7 @@ fetchdata().then((data) => {
     let price = finalPrice((data.Herbalist[index].Price)+herbalistEnergy);
 
     herbalistSection.innerHTML += `
-   
+    
         <tr>
             <td>${name}</td>
             <td>${ingredients}</td>
@@ -266,7 +261,7 @@ fetchdata().then((data) => {
     let price = finalPrice((data.Potter[index].Price)+potterEnergy);
 
     potterSection.innerHTML += `
-   
+    
         <tr>
             <td>${name}</td>
             <td>${ingredients}</td>
@@ -301,6 +296,7 @@ fetchdata().then((data) => {
 
     `;
   }
+
   for (let index = 0; index < data.Materials.length; index++) {
     const materialsSection = document.getElementById("MaterialsSection");
     let name = data.Materials[index].name;
@@ -318,5 +314,5 @@ fetchdata().then((data) => {
         </tr>
 
     `;
-  }
+  }    
 });
