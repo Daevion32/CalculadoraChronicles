@@ -45,9 +45,18 @@ potterEnergy = WorkEnergy.get("Potter") / goldEnergy;
 tailorEnergy = WorkEnergy.get("Tailor") / goldEnergy;
 
 async function fetchdata() {
-  const response = await fetch(requestUrl);
-  const data = await response.json();
-  return data;
+  try{
+    const response = await fetch(requestUrl);
+    const data = await response.json();
+    return data;
+  }
+  catch{
+    console.log("No esta leyendo el Json , revisa el codigo cenutrio");
+  }
+  finally{
+    console.log("Todo correcto puede usted seguir programando");
+  }
+ 
 }
 
 function finalPrice(Price) {
@@ -156,7 +165,6 @@ fetchdata().then((data) => {
     const carpenterSection = document.getElementById("CarpenterSection");
     let name = data.Carpenter[index].name;
     let ingredients = data.Carpenter[index].ingredients;
-    
     let product = data.Carpenter[index].return;
     let tool = data.Carpenter[index].Tool;
     let profesion = data.Carpenter[index].Profesion;
@@ -166,7 +174,7 @@ fetchdata().then((data) => {
    
         <tr>
                 <td>${name}</td>
-                <td>${ingredients.name} </td>
+                <td>${ingredients} </td>
                 <td>${product}</td>
                 <td>${tool}</td>                  
                 <td>${profesion}</td>

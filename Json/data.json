@@ -252,7 +252,7 @@
             "id": 1,
             "name": "Bees",
             "ingredients": "4 Flowers",
-            "return": "",
+            "return": "4 Wax , 4Honey", 
             "Tool": "Bellow",
             "Profesion": "Breeding I",
             "Price":""
@@ -446,7 +446,7 @@
         {
             "id": 3,
             "name": "Hay",
-            "ingredients": "1 Hay",
+            "ingredients": "1 Manure",
             "return": "7 Hay",
             "Tool": "2 Hoe , 1 Sickle",
             "Profesion": "Farming I",
