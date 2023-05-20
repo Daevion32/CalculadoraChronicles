@@ -35,14 +35,23 @@ const WorkEnergy = new Map([
   
 
 cookerEnergy = WorkEnergy.get("Cooker") / goldEnergy;
+cookerFixed = cookerEnergy.toFixed(2);
 blacksmithEnergy = WorkEnergy.get("Blacksmith") / goldEnergy;
+blacksmithFixed = blacksmithEnergy.toFixed(2);
 breederEnergy = WorkEnergy.get("Breeder") / goldEnergy;
+breederFixed = breederEnergy.toFixed(2);
 carpenterEnergy = WorkEnergy.get("Carpenter") / goldEnergy;
+carpenterFixed = carpenterEnergy.toFixed(2); 
 destillerEnergy = WorkEnergy.get("Destiller") / goldEnergy;
+destillerFixed = destillerEnergy.toFixed(2);
 farmerEnergy = WorkEnergy.get("Farmer") / goldEnergy;
+farmerFixed = farmerEnergy.toFixed(2);
 herbalistEnergy = WorkEnergy.get("Herbalist") / goldEnergy;
+herbalistFixed = herbalistEnergy.toFixed(2);
 potterEnergy = WorkEnergy.get("Potter") / goldEnergy;
+potterFixed = potterEnergy.toFixed(2);
 tailorEnergy = WorkEnergy.get("Tailor") / goldEnergy;
+tailorFixed = tailorEnergy.toFixed(2);
 
 async function fetchdata() {
   try{
@@ -58,7 +67,7 @@ async function fetchdata() {
 
 function finalPrice(Price) {
   nodeMove = (Nodes * NodeMovement) / 100;
-  return Price * base * (1 + Taxes / 100 + nodeMove);
+  return  Price * base * (1 + Taxes / 100 + parseFloat(nodeMove.toFixed(2)));
 }
 
 const cities = new Map();
@@ -94,15 +103,16 @@ fetchdata().then((data) => {
     let product = data.Bakery[index].return;
     let tool = data.Bakery[index].Tool;
     let profesion = data.Bakery[index].Profesion;
-    let price = finalPrice((data.Bakery[index].Price)+cookerEnergy);
-    
+    let price = finalPrice(data.Bakery[index].Price) + parseFloat(cookerFixed);
+   
+  
     bakerySection.innerHTML += `
     
       <tr>
           <td>${name}</td>
-          <td>${ingredients}</td>
-          <td>${product}</td>
-          <td>${tool}</td>
+          <td>${Object.keys(ingredients)}</td>
+          <td>${Object.keys(product)}</td>
+          <td>${Object.keys(tool)}</td>
           <td>${profesion}</td>
           <td>${price}</td>
       
@@ -118,15 +128,15 @@ fetchdata().then((data) => {
     let product = data.Blacksmith[index].return;
     let tool = data.Blacksmith[index].Tool;
     let profesion = data.Blacksmith[index].Profesion;
-    let price = finalPrice((data.Blacksmith[index].Price)+blacksmithEnergy);
+    let price = finalPrice((data.Blacksmith[index].Price)+parseFloat(blacksmithFixed));
 
     blacksmithSection.innerHTML += `
     
         <tr>
                 <td>${name}</td>
-                <td>${ingredients}</td>
-                <td>${product}</td>
-                <td>${tool}</td>
+                <td>${Object.keys(ingredients)}</td>
+                <td>${Object.keys(product)}</td>
+                <td>${Object.keys(tool)}</td>
                 <td>${profesion}</td>
                 <td>${price}</td>
         </tr>
@@ -140,15 +150,15 @@ fetchdata().then((data) => {
     let product = data.Breeder[index].return;
     let tool = data.Breeder[index].Tool;
     let profesion = data.Breeder[index].Profesion;
-    let price = finalPrice((data.Breeder[index].Price)+breederEnergy);
+    let price = finalPrice((data.Breeder[index].Price)+parseFloat(breederFixed));
 
     breederSection.innerHTML += `
     
         <tr>
                 <td>${name}</td>
-                <td>${ingredients}</td>
-                <td>${product}</td>
-                <td>${tool}</td>                  
+                <td>${Object.keys(ingredients)}</td>
+                <td>${Object.keys(product)}</td>
+                <td>${Object.keys(tool)}</td>                
                 <td>${profesion}</td>
                 <td>${price}</td>
         </tr>
@@ -163,15 +173,15 @@ fetchdata().then((data) => {
     let product = data.Carpenter[index].return;
     let tool = data.Carpenter[index].Tool;
     let profesion = data.Carpenter[index].Profesion;
-    let price = finalPrice((data.Carpenter[index].Price)+carpenterEnergy);
+    let price = finalPrice((data.Carpenter[index].Price)+parseFloat(carpenterFixed));
 
     carpenterSection.innerHTML += `
     
         <tr>
                 <td>${name}</td>
-                <td>${ingredients} </td>
-                <td>${product}</td>
-                <td>${tool}</td>                  
+                <td>${Object.keys(ingredients)}</td>
+                <td>${Object.keys(product)}</td>
+                <td>${Object.keys(tool)}</td>               
                 <td>${profesion}</td>
                 <td>${price}</td>
         </tr>
@@ -186,7 +196,7 @@ fetchdata().then((data) => {
     let product = data.Destiller[index].return;
     let tool = data.Destiller[index].Tool;
     let profesion = data.Destiller[index].Profesion;
-    let price = finalPrice((data.Destiller[index].Price)+destillerEnergy);
+    let price = finalPrice((data.Destiller[index].Price)+parseFloat(destillerFixed));
 
     destillerSection.innerHTML += `
     
@@ -209,7 +219,7 @@ fetchdata().then((data) => {
     let product = data.Farmer[index].return;
     let tool = data.Farmer[index].Tool;
     let profesion = data.Farmer[index].Profesion;
-    let price = finalPrice((data.Farmer[index].Price)+farmerEnergy);
+    let price = finalPrice((data.Farmer[index].Price)+parseFloat(farmerFixed));
 
     farmerSection.innerHTML += `
     
@@ -234,7 +244,7 @@ fetchdata().then((data) => {
     let product = data.Herbalist[index].return;
     let tool = data.Herbalist[index].Tool;
     let profesion = data.Herbalist[index].Profesion;
-    let price = finalPrice((data.Herbalist[index].Price)+herbalistEnergy);
+    let price = finalPrice((data.Herbalist[index].Price)+parseFloat(herbalistFixed));
 
     herbalistSection.innerHTML += `
     
@@ -258,7 +268,7 @@ fetchdata().then((data) => {
     let product = data.Potter[index].return;
     let tool = data.Potter[index].Tool;
     let profesion = data.Potter[index].Profesion;
-    let price = finalPrice((data.Potter[index].Price)+potterEnergy);
+    let price = finalPrice((data.Potter[index].Price)+parseFloat(potterFixed));
 
     potterSection.innerHTML += `
     
@@ -281,7 +291,7 @@ fetchdata().then((data) => {
     let product = data.Tailor[index].return;
     let tool = data.Tailor[index].Tool;
     let profesion = data.Tailor[index].Profesion;
-    let price = finalPrice((data.Tailor[index].Price)+tailorEnergy);
+    let price = finalPrice((data.Tailor[index].Price)+parseFloat(tailorFixed));
 
     tailorSection.innerHTML += `
 
@@ -309,7 +319,7 @@ fetchdata().then((data) => {
         <tr>
             <td>${name}</td>
             <td>${node}</td>
-            <td>${product}</td>
+            <td>${Object.keys(product)}</td>
             <td>${price}</td>
         </tr>
 
