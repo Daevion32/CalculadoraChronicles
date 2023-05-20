@@ -202,9 +202,9 @@ fetchdata().then((data) => {
     
         <tr>
                 <td>${name}</td>
-                <td>${ingredients}</td>
-                <td>${product}</td>
-                <td>${tool}</td>                  
+                <td>${Object.keys(ingredients)}</td>
+                <td>${Object.keys(product)}</td>
+                <td>${Object.keys(tool)}</td>                   
                 <td>${profesion}</td>
                 <td>${price}</td>
         </tr>
@@ -226,9 +226,9 @@ fetchdata().then((data) => {
 
         <tr>
             <td>${name}</td>
-            <td>${ingredients}</td>
-            <td>${product}</td>
-            <td>${tool}</td>                  
+            <td>${Object.keys(ingredients)}</td>
+            <td>${Object.keys(product)}</td>
+            <td>${Object.keys(tool)}</td>                  
             <td>${profesion}</td>
             <td>${price}</td>
         </tr>
@@ -250,9 +250,9 @@ fetchdata().then((data) => {
     
         <tr>
             <td>${name}</td>
-            <td>${ingredients}</td>
-            <td>${product}</td>
-            <td>${tool}</td>                  
+            <td>${Object.keys(ingredients)}</td>
+            <td>${Object.keys(product)}</td>
+            <td>${Object.keys(tool)}</td>                  
             <td>${profesion}</td>
             <td>${price}</td>
         </tr>
@@ -274,9 +274,9 @@ fetchdata().then((data) => {
     
         <tr>
             <td>${name}</td>
-            <td>${ingredients}</td>
-            <td>${product}</td>
-            <td>${tool}</td>                  
+            <td>${Object.keys(ingredients)}</td>
+            <td>${Object.keys(product)}</td>
+            <td>${Object.keys(tool)}</td>                 
             <td>${profesion}</td>
             <td>${price}</td>
         </tr>
@@ -297,9 +297,9 @@ fetchdata().then((data) => {
 
         <tr>
             <td>${name}</td>
-            <td>${ingredients}</td>
-            <td>${product}</td>
-            <td>${tool}</td>                
+            <td>${Object.keys(ingredients)}</td>
+            <td>${Object.keys(product)}</td>
+            <td>${Object.keys(tool)}</td>                
             <td>${profesion}</td>
             <td>${price}</td>
         </tr>

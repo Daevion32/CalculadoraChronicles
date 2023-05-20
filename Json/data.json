@@ -576,63 +576,63 @@
         {
             "id": 1,
             "name": "Cooking Pot",
-            "ingredients": "1 Clay Piece , 1 Coal Piece",
-            "return": "1 Cooking Pot",
-            "Tool": "Potter Tools",
+            "ingredients": {"Clay Piece":1 , "Coal Piece":1},
+            "return": {"Cooking Pot":1},
+            "Tool": {"Potter Tools":1},
             "Profesion": "Pottery I",
             "Price":""
         },
         {
             "id": 2,
             "name": "Distiller",
-            "ingredients": "1 Coal Piece , 1 Sand Heap",
-            "return": "1 Distiller",
-            "Tool": "Potter Tools",
+            "ingredients": {"Coal Piece":1 , "Sand Heap":1},
+            "return": {"Distiller":1},
+            "Tool": {"Potter Tools":1},
             "Profesion": "Pottery I",
             "Price":""
         },
         {
             "id": 3,
             "name": "Glass Bottle",
-            "ingredients": "1 Coal Piece , 1 Sand Heap",
-            "return": "1 Glass Bottle",
-            "Tool": "Potter Tools",
+            "ingredients": {"Coal Piece":1 , "Sand Heap":1},
+            "return": {"Glass Bottle":1},
+            "Tool": {"Potter Tools":1},
             "Profesion": "Pottery I",
             "Price":""
         },
         {
             "id": 4,
             "name": "Glass Bulb",
-            "ingredients": "1 Coal Piece , 1 Sand Piece",
-            "return": "1 Glass Bulb",
-            "Tool": "Potter Tools",
+            "ingredients": {"Coal Piece":1 ,  "Sand Piece":1},
+            "return": {"Glass Bulb":1},
+            "Tool": {"Potter Tools":1},
             "Profesion": "Pottery I",
             "Price":""
         },
         {
             "id": 5,
             "name": "Glass Panel",
-            "ingredients": "2 Coal Piece , 2 Sand Piece",
-            "return": "1 Glass Panel",
-            "Tool": "Potter Tools",
+            "ingredients": {"Coal Piece":2 , "Sand Piece":2},
+            "return": {"Glass Panel":1},
+            "Tool": {"Potter Tools":1},
             "Profesion": "Pottery I",
             "Price":""
         },
         {
             "id": 6,
             "name": "Mortar and Pestle",
-            "ingredients": "1 Clay Piece , 1 Coal Piece",
-            "return": "1 Mortar and Pestle",
-            "Tool": "Potter Tools",
+            "ingredients": {"Clay Piece":1 , "Coal Piece":1},
+            "return": {"Mortar and Pestle":1},
+            "Tool": {"Potter Tools":1},
             "Profesion": "Pottery I",
             "Price":""
         },
         {
             "id": 7,
             "name": "Pottery",
-            "ingredients": "1 Clay Piece , 1 Coal Piece",
-            "return": "1 Pottery",
-            "Tool": "Potter Tools",
+            "ingredients": {"Clay Piece":1 , "Coal Piece":1},
+            "return": {"Pottery":1},
+            "Tool": {"Potter Tools":1},
             "Profesion": "Pottery I",
             "Price":""
         }
@@ -641,126 +641,126 @@
         {
             "id": 1,
             "name": "Bellow",
-            "ingredients": "2 Leather , 1 Wood Piece",
-            "return": "1 Bellow",
-            "Tool": "1 Scissors",
+            "ingredients": {"Leather":2 , "Wood Piece":1},
+            "return": {"Bellow":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring I",
             "Price":""
         },
         {
             "id": 2,
             "name": "Fishing Net",
-            "ingredients": "3 Hemp",
-            "return": "1 Fishing Net",
-            "Tool": "1 Scissors",
+            "ingredients": {"Hemp":3},
+            "return": {"Fishing Net":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring I",
             "Price":""
         },
         {
             "id": 3,
             "name": "Linen Shirt",
-            "ingredients": "2 Linen",
-            "return": "1 Linen Shirt",
-            "Tool": "1 Scissors",
+            "ingredients": {"Linen":2},
+            "return": {"Linen Shirt":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring I",
             "Price":""
         },
         {
             "id": 4,
             "name": "Linen Trousers",
-            "ingredients": "2 Linen",
-            "return": "1 Linen Trousers",
-            "Tool": "1 Scissors",
+            "ingredients": {"Linen":2},
+            "return": {"Linen Trousers":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring I",
             "Price":""
         },
         {
             "id": 5,
             "name": "Shoes",
-            "ingredients": "1 Leather",
-            "return": "1 Shoes",
-            "Tool": "1 Scissors",
+            "ingredients":{ "Leather":1},
+            "return": {"Shoes":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring I",
             "Price":""
         },
         {
             "id": 6,
             "name": "Wool Hat",
-            "ingredients": "1 Wool",
-            "return": "1 Wool Hat",
-            "Tool": "1 Scissors",
+            "ingredients": {"Wool":1},
+            "return": {"Wool Hat":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring I",
             "Price":""
         },
         {
             "id": 7,
             "name": "Wool Gloves",
-            "ingredients": "1 Wool",
-            "return": "1 Woo Gloves",
-            "Tool": "1 Scissors",
+            "ingredients": {"Wool":1},
+            "return": {"Wool Gloves":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring I",
             "Price":""
         },
         {
             "id": 8,
             "name": "Wool Shirt",
-            "ingredients": "2 Wool",
-            "return": "1 Wool Shirt",
-            "Tool": "1 Scissors",
+            "ingredients": {"Wool":2},
+            "return": {"Wool Shirt":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring I",
             "Price":""
         },
         {
             "id": 9,
             "name": "Wool Trousers",
-            "ingredients": "2 Wool",
-            "return": "1 Wool Trousers",
-            "Tool": "1 Scissors",
+            "ingredients":{"Wool":2},
+            "return":{"Wool Trousers":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring I",
             "Price":""
         },
         {
             "id": 10,
             "name": "Boots",
-            "ingredients": "1 Leather",
-            "return": "Boots",
-            "Tool": "1 Scissors",
+            "ingredients": {"Leather":1},
+            "return": {"Boots":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring II",
             "Price":""
         },
         {
             "id": 11,
             "name": "Leather Armor",
-            "ingredients": "2 Leather",
-            "return": "1 Leather Armor",
-            "Tool": "1 Scissors",
+            "ingredients": {"Leather":2},
+            "return":{"Leather Armor":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring II",
             "Price":""
         },
         {
             "id": 12,
             "name": "Leather Helmet",
-            "ingredients": "2 Leather",
-            "return": "1 Leather Helmet",
-            "Tool": "1 Scissors",
+            "ingredients": {"Leather":2},
+            "return": {"Leather Helmet":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring II",
             "Price":""
         },
         {
             "id": 13,
             "name": "Leather Legs Armor",
-            "ingredients": "2 Leather",
-            "return": "1 Leather Legs Armor",
-            "Tool": "1 Scissors",
+            "ingredients": {"Leather":2},
+            "return": {"Leather Legs Armor":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring II",
             "Price":""
         },
         {
             "id": 14,
             "name": "Reinforcered Leather Armor",
-            "ingredients": "1 Iron Piece , 2 Leather",
-            "return": "1 Reinforcered Leather Armor",
-            "Tool": "1 Scissors",
+            "ingredients": {"Iron Piece":1 ,"Leather":2},
+            "return": {"Reinforcered Leather Armor":1},
+            "Tool": {"Scissors":1},
             "Profesion": "Tailoring II",
             "Price":""
         }
@@ -770,7 +770,7 @@
             "id":1,
             "name":"Bees",
             "node":"Leon",
-            "return":"4 Honey , 4 Wax" ,
+            "return":{"Honey":4 ,"Wax":4} ,
             "Price":""
             
         },
@@ -778,7 +778,7 @@
             "id":2,
             "name":"Clay",
             "node":"Leon",
-            "return":"3 Clay Pieces",
+            "return":{"Clay Pieces":3},
             "Price":""
             
         },
@@ -786,7 +786,7 @@
             "id":3,
             "name":"Coal",
             "node":"Seville",
-            "return":"3 Coal Pieces",
+            "return":{"Coal Pieces":3},
             "Price":""
             
         },
@@ -794,7 +794,7 @@
             "id":4,
             "name":"Cow",
             "node":"Cordova",
-            "return":"",
+            "return":{"":0},
             "Price":""
             
         },
@@ -802,7 +802,7 @@
             "id":5,
             "name": "Fish",
             "node":"Ceuta",
-            "return":"",
+            "return":{"":0},
             "Price":""
             
         },        
@@ -810,7 +810,7 @@
             "id":6,
             "name": "Iron",
             "node":"Toledo",
-            "return":"3 Iron Pieces",
+            "return":{"Iron Pieces":3},
             "Price": ""
             
         },
@@ -818,7 +818,7 @@
             "id":7,
             "name": "Pig",
             "node":"Toledo",
-            "return":"",
+            "return":{"":0},
             "Price":""
             
         },
@@ -826,7 +826,7 @@
             "id":8,
             "name": "Sand",
             "node":"Oporto",
-            "return":"",
+            "return":{"":0},
             "Price":""
             
         },
@@ -834,7 +834,7 @@
             "id":9,
             "name": "Sheep",
             "node":"Seville",
-            "return":"",
+            "return":{"":0},
             "Price":""
             
         },
@@ -842,7 +842,7 @@
             "id":10,
             "name": "Stone",
             "node":"Cordova",
-            "return":"3 Stone Pieces",
+            "return":{"Stone Pieces":3},
             "Price":""
             
         },
@@ -850,7 +850,7 @@
             "id":11,
             "name": "Wood",
             "node":"Lisbon",
-            "return":"3 Wood Pieces",
+            "return":{"Wood Pieces":3},
             "Price":""
             
         }
