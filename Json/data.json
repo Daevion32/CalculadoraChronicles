@@ -26,20 +26,8 @@
             "Nodes":3
         },
         {   
-            "City": "Oporto",
-            "Nodes":5
-        },
-        {   
             "City": "León",
             "Nodes":3
-        },
-        {   
-            "City": "Ceuta",
-            "Nodes":5
-        },
-        {   
-            "City": "Granada",
-            "Nodes":4
         },
         {   
             "City": "Valencia",
@@ -50,7 +38,19 @@
             "Nodes":3
         },
         {   
+            "City": "Granada",
+            "Nodes":4
+        },
+        {   
             "City": "Barcelona",
+            "Nodes":5
+        },
+        {   
+            "City":"Ceuta" ,
+            "Nodes":5
+        },
+        {   
+            "City":"Oporto" ,
             "Nodes":5
         }
     ],
