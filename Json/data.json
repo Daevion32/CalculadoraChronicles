@@ -766,16 +766,9 @@
         }
     ],
     "Materials":[
+
         {
             "id":1,
-            "name":"Bees",
-            "node":"Leon",
-            "return":{"Honey":4 ,"Wax":4} ,
-            "Price":""
-            
-        },
-        {
-            "id":2,
             "name":"Clay",
             "node":"Leon",
             "return":{"Clay Pieces":3},
@@ -783,7 +776,7 @@
             
         },
         {
-            "id":3,
+            "id":2,
             "name":"Coal",
             "node":"Seville",
             "return":{"Coal Pieces":3},
@@ -791,18 +784,10 @@
             
         },
         {
-            "id":4,
-            "name":"Cow",
-            "node":"Cordova",
-            "return":{"":0},
-            "Price":""
-            
-        },
-        {
             "id":5,
             "name": "Fish",
             "node":"Ceuta",
-            "return":{"":0},
+            "return":{"Fish":3},
             "Price":""
             
         },        
@@ -815,26 +800,10 @@
             
         },
         {
-            "id":7,
-            "name": "Pig",
-            "node":"Toledo",
-            "return":{"":0},
-            "Price":""
-            
-        },
-        {
             "id":8,
             "name": "Sand",
             "node":"Oporto",
-            "return":{"":0},
-            "Price":""
-            
-        },
-        {
-            "id":9,
-            "name": "Sheep",
-            "node":"Seville",
-            "return":{"":0},
+            "return":{"Sand Heap":3},
             "Price":""
             
         },

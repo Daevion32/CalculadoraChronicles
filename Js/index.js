@@ -32,26 +32,35 @@ const WorkEnergy = new Map([
   ["Tailor", 12],
   ["Collector", 24],
 ]);
-  
 
-cookerEnergy = WorkEnergy.get("Cooker") / goldEnergy;
-cookerFixed = cookerEnergy.toFixed(2);
-blacksmithEnergy = WorkEnergy.get("Blacksmith") / goldEnergy;
-blacksmithFixed = blacksmithEnergy.toFixed(2);
-breederEnergy = WorkEnergy.get("Breeder") / goldEnergy;
-breederFixed = breederEnergy.toFixed(2);
-carpenterEnergy = WorkEnergy.get("Carpenter") / goldEnergy;
-carpenterFixed = carpenterEnergy.toFixed(2); 
-destillerEnergy = WorkEnergy.get("Destiller") / goldEnergy;
-destillerFixed = destillerEnergy.toFixed(2);
-farmerEnergy = WorkEnergy.get("Farmer") / goldEnergy;
-farmerFixed = farmerEnergy.toFixed(2);
-herbalistEnergy = WorkEnergy.get("Herbalist") / goldEnergy;
-herbalistFixed = herbalistEnergy.toFixed(2);
-potterEnergy = WorkEnergy.get("Potter") / goldEnergy;
-potterFixed = potterEnergy.toFixed(2);
-tailorEnergy = WorkEnergy.get("Tailor") / goldEnergy;
-tailorFixed = tailorEnergy.toFixed(2);
+let cookerEnergyFix = (WorkEnergy.get("Cooker") / goldEnergy).toFixed(2);
+let blacksmithEnergyFix = (WorkEnergy.get("Blacksmith") / goldEnergy).toFixed(2);
+let breederEnergyFix = (WorkEnergy.get("Breeder") / goldEnergy).toFixed(2);
+let carpenterEnergyFix = (WorkEnergy.get("Carpenter") / goldEnergy).toFixed(2);
+let destillerEnergyFix = (WorkEnergy.get("Destiller") / goldEnergy).toFixed(2);
+let farmerEnergyFix = (WorkEnergy.get("Farmer") / goldEnergy).toFixed(2);
+let herbalistEnergyFix = (WorkEnergy.get("Herbalist") / goldEnergy).toFixed(2);
+let potterEnergyFix = (WorkEnergy.get("Potter") / goldEnergy).toFixed(2);
+let tailorEnergyFix = (WorkEnergy.get("Tailor") / goldEnergy).toFixed(2);
+let collectorEnergyFix = (WorkEnergy.get("Collector") / goldEnergy).toFixed(2);
+
+const materials = new Map([
+  ["Iron", 3],
+  ["Wood", 3],
+  ["Clay", 3],
+  ["Sand", 3],
+  ["Stone", 3],
+  ["Coal", 3],
+  ["Fish", 3]
+]);
+
+// let Blacksmith = materials.get("Iron") +" "+ "Iron" + " " + materials.get("Wood") +" " + "Wood" + " " + materials.get("Coal") + " " + "Coal";
+//  console.log(Blacksmith)
+
+
+
+
+//fetch de datos del Json
 
 async function fetchdata() {
   try{
@@ -103,7 +112,7 @@ fetchdata().then((data) => {
     let product = data.Bakery[index].return;
     let tool = data.Bakery[index].Tool;
     let profesion = data.Bakery[index].Profesion;
-    let price = finalPrice(data.Bakery[index].Price) + parseFloat(cookerFixed);
+    let price = finalPrice(data.Bakery[index].Price) + parseFloat(cookerEnergyFix);
    
   
     bakerySection.innerHTML += `
@@ -128,7 +137,7 @@ fetchdata().then((data) => {
     let product = data.Blacksmith[index].return;
     let tool = data.Blacksmith[index].Tool;
     let profesion = data.Blacksmith[index].Profesion;
-    let price = finalPrice((data.Blacksmith[index].Price)+parseFloat(blacksmithFixed));
+    let price = finalPrice((data.Blacksmith[index].Price)+parseFloat(blacksmithEnergyFix));
 
     blacksmithSection.innerHTML += `
     
@@ -150,7 +159,7 @@ fetchdata().then((data) => {
     let product = data.Breeder[index].return;
     let tool = data.Breeder[index].Tool;
     let profesion = data.Breeder[index].Profesion;
-    let price = finalPrice((data.Breeder[index].Price)+parseFloat(breederFixed));
+    let price = finalPrice((data.Breeder[index].Price)+parseFloat(breederEnergyFix));
 
     breederSection.innerHTML += `
     
@@ -173,7 +182,7 @@ fetchdata().then((data) => {
     let product = data.Carpenter[index].return;
     let tool = data.Carpenter[index].Tool;
     let profesion = data.Carpenter[index].Profesion;
-    let price = finalPrice((data.Carpenter[index].Price)+parseFloat(carpenterFixed));
+    let price = finalPrice((data.Carpenter[index].Price)+parseFloat(carpenterEnergyFix));
 
     carpenterSection.innerHTML += `
     
@@ -196,7 +205,7 @@ fetchdata().then((data) => {
     let product = data.Destiller[index].return;
     let tool = data.Destiller[index].Tool;
     let profesion = data.Destiller[index].Profesion;
-    let price = finalPrice((data.Destiller[index].Price)+parseFloat(destillerFixed));
+    let price = finalPrice((data.Destiller[index].Price)+parseFloat(destillerEnergyFix));
 
     destillerSection.innerHTML += `
     
@@ -219,7 +228,7 @@ fetchdata().then((data) => {
     let product = data.Farmer[index].return;
     let tool = data.Farmer[index].Tool;
     let profesion = data.Farmer[index].Profesion;
-    let price = finalPrice((data.Farmer[index].Price)+parseFloat(farmerFixed));
+    let price = finalPrice((data.Farmer[index].Price)+parseFloat(farmerEnergyFix));
 
     farmerSection.innerHTML += `
     
@@ -244,8 +253,7 @@ fetchdata().then((data) => {
     let product = data.Herbalist[index].return;
     let tool = data.Herbalist[index].Tool;
     let profesion = data.Herbalist[index].Profesion;
-    let price = finalPrice((data.Herbalist[index].Price)+parseFloat(herbalistFixed));
-
+    let price = finalPrice((data.Herbalist[index].Price)+parseFloat(herbalistEnergyFix));
     herbalistSection.innerHTML += `
     
         <tr>
@@ -268,7 +276,7 @@ fetchdata().then((data) => {
     let product = data.Potter[index].return;
     let tool = data.Potter[index].Tool;
     let profesion = data.Potter[index].Profesion;
-    let price = finalPrice((data.Potter[index].Price)+parseFloat(potterFixed));
+    let price = finalPrice((data.Potter[index].Price)+parseFloat(potterEnergyFix));
 
     potterSection.innerHTML += `
     
@@ -291,7 +299,7 @@ fetchdata().then((data) => {
     let product = data.Tailor[index].return;
     let tool = data.Tailor[index].Tool;
     let profesion = data.Tailor[index].Profesion;
-    let price = finalPrice((data.Tailor[index].Price)+parseFloat(tailorFixed));
+    let price = finalPrice((data.Tailor[index].Price)+parseFloat(tailorEnergyFix));
 
     tailorSection.innerHTML += `
 
@@ -312,7 +320,9 @@ fetchdata().then((data) => {
     let name = data.Materials[index].name;
     let node = data.Materials[index].node;
     let product = data.Materials[index].return;
-    let price = finalPrice(data.Materials[index].Price);
+    let material = Object.values(product);
+    
+    let price = finalPrice(data.Materials[index].Price+ parseFloat(collectorEnergyFix/ material).toFixed(2));
 
     materialsSection.innerHTML += `
 
