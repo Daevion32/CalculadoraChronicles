@@ -13,11 +13,11 @@ let NodeMovement = 0;
 
 //Goberment
 
-let gold = 5;
-let energy = 56;
-let glut = 20;
+let gold = 12;
+let energy = 150;
+
 let goldEnergy = energy / gold;
-let glutEnergy = energy / glut;
+
 
 //WorkEnergy y oro ganado por trabajo
 
@@ -31,7 +31,7 @@ const WorkEnergy = new Map([
   ["Herbalist", 12],
   ["Potter", 12],
   ["Tailor", 12],
-  ["Collector", 24],
+  ["Collector", 12],
 ]);
   
 
